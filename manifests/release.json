@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "release_id": "preprint-preparation-20261006",
+  "original_artifact_sha256": "d94df42914479d6428cde0fbc2978e95b30cf9cdb22f3e694904420411ac7dbd",
+  "paper_repository_commit": "28385a9ba1c89f45a0ccf370f9eae8ba54fc9dd9",
+  "numerical_baseline": "paper-five-run-v4",
+  "authors_file": "AUTHORS.json",
+  "paper_text_changed": true,
+  "changes": [
+    "Removed inactive paper comments and collaborator markup macros",
+    "Added author order, affiliations, and provided contact metadata",
+    "Updated artifact packaging metadata and release label",
+    "Rendered named preprint without review line numbers or conference header",
+    "Added provided coauthor emails and applied supplied author layout reference",
+    "Allowed declarations to flow after conclusion without forced pagination",
+    "Corrected third author display name to Yan Liu",
+    "Added provided Yan Liu email",
+    "Standardized paper source paths to main.tex and sections/",
+    "Licensed original code and software documentation under MIT and retained upstream notices",
+    "Updated Jiahao Liu to affiliation 2 (Ant Group) and ljiahaomail@gmail.com",
+    "Clarified bundled observations, separately acquired data/models, and artifact execution flow in README",
+    "Linked the artifact README to the published named-preprint snapshot",
+    "Prepared VReparo as a GitHub research project with a method-first README, figure, results, citation, and reproducibility guide",
+    "Removed citation URLs and the README contact sentence",
+    "Removed README paper links pending arXiv publication"
+  ],
+  "prepared_paper_sha256": {
+    "main.tex": "87d923e2a584858a657ffcfd4035838626d8f8cce9226b8953e01f9015f67978",
+    "sections/abstract.tex": "0663f168d94fcfd53d9dabddd7f14ac4e947f09305d50484cf7618703b08bce5",
+    "sections/ai_use.tex": "d3970c32dcfdac3895506c29427f0b49398ebd1cced447bf336047cc5c99584b",
+    "sections/appendix.tex": "9509505d33287cd9a6cf68ec3efad7261ed083cb6db927b69a63e81c85a50fbe",
+    "sections/appendix_calibration_table.tex": "24122d0ac1cc7d824d3795d03312efe6638b9337da16ecd3af6de3e12c8f337e",
+    "sections/appendix_timing_lengths.tex": "e197e77783563f68121401b27f8c0068cd7255e092432eefc1aa14a14ffec26c",
+    "sections/approach.tex": "c5cd0eb48cb9a8a13accabc939c6d17dd999296942988b951084ae099da6b8ac",
+    "sections/conclusion.tex": "b29fd9f94fc24d5b9c6c908fb1b5668ec6af5f683b48dfe0738629c871d6bc3a",
+    "sections/ethics.tex": "3d8192f5cb804fca1057ba416fa84aa0042c61cc3644a89e5c512c8e0c27c85a",
+    "sections/evaluation.tex": "de275cb44a9f2b3c67d66f9034ad2a405f430bc7b5a39ce0912a5f60b0a8b555",
+    "sections/findings.tex": "5dfd6950781a27c5d31e9c311038ddbbc6ad0a98c97b9032fa1e43ba9fa7ed9a",
+    "sections/introduction.tex": "6a0460866c8ad5ac01626fdc86389e9b9b27cb51522cd9630ef3933fcb3a1164",
+    "sections/problem.tex": "59c06208a64510778a352d0affce97b37876cb0b225c2507417c02f6e87b580f",
+    "sections/related_work.tex": "f0c54cefcddac905129c6a90d2108eeef2b6828801bdf36a099bc6f99f33440f",
+    "sections/reproducibility.tex": "c487beb3c22e784345b2faed2e63bceac97d4be5c5050fa6dbe0c35055da606c",
+    "figures/candidates/kv_provenance_overview.tex": "b3ba2b580fc621c3b7e070d9ae4221e23e8a6e5b734eccdb924aa2ee8c8ba64b",
+    "authors.tex": "097c8f6888bb72280fb414dcdb073d071538738f4c524803f7e30d8fd2981c20",
+    "references.bib": "d5cb9d330c61292045f9dae6eede0234275ad57ded81a33afeabe59a09a89afb",
+    "iclr2027_conference.sty": "797deef41724e93761426ac0cbcca46279a91cc650dd1f0ce76a4f08d2098ea6",
+    "iclr2027_conference.bst": "2d67552db7ed38ccfccb5957b52f95656e25c249724761d3cf5f7922ad1844c5",
+    "fancyhdr.sty": "b56ec4434b9f4607529a4b23dc68ad8d4b94f1f631c8cddaf7da78140d53a5ea",
+    "natbib.sty": "88bc70c0e48461934cab5b2accef06b74a8b3ac45ad03ccd3f2a6b7e0d6d530d",
+    "figures/candidates/kv_provenance_overview.pdf": "5562d310187b54aff3965c59f03c2a8bd183339e8c85ce2e212a07995562e010",
+    "figures/candidates/v_tensor_sanitization.pdf": "bb0db089d26b494c7a8573624b00a1161dde9c70573bdbbb24217f65ce5c0b1b",
+    "preprint.sty": "74f83937bf73a7b6e66082b7c693351d93691ee02f2f81b5c6643df7a9f0c23a"
+  },
+  "author_list_complete": true,
+  "paper_display": "named-preprint",
+  "paper_body_changed": false,
+  "default_title_spacing": true,
+  "author_layout": "shared-names-numbered-affiliations",
+  "code_license": "MIT",
+  "paper_entrypoint": "main.tex",
+  "remote_sync": {
+    "checked_date": "2026-10-08",
+    "remote": "overleaf",
+    "repository": "https://github.com/Snakinya/kv-cache-provenance-overleaf",
+    "branch": "main",
+    "commit": "28385a9ba1c89f45a0ccf370f9eae8ba54fc9dd9",
+    "result": "already-imported-no-new-source-changes"
+  },
+  "published_paper_repository": {
+    "repository": "https://github.com/Snakinya/kv-cache-provenance-overleaf",
+    "branch": "main",
+    "commit": "d751d395f3b6f46e928095df66eceade0f531383",
+    "published_date": "2026-10-08",
+    "paper_pdf": "https://github.com/Snakinya/kv-cache-provenance-overleaf/blob/d751d395f3b6f46e928095df66eceade0f531383/paper.pdf"
+  },
+  "project": {
+    "name": "VReparo",
+    "directory": "vreparo",
+    "distribution": "vreparo",
+    "python_namespace": "vreparo_artifact",
+    "archive": "vreparo.zip"
+  },
+  "documentation_assets": {
+    "assets/method.png": {
+      "source": "figures/candidates/v_tensor_sanitization.pdf",
+      "source_sha256": "bb0db089d26b494c7a8573624b00a1161dde9c70573bdbbb24217f65ce5c0b1b",
+      "sha256": "f1b4f64daed2fe15a4001088927134204fe0c414733a884a8262b50454a8d28f",
+      "review": "Rendered existing paper figure and visually inspected; outside code license grant"
+    }
+  }
+}

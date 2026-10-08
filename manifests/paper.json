@@ -1,0 +1,26 @@
+{
+  "commit": "paper-five-run-v4",
+  "figure_sha256": {
+    "figures/candidates/kv_provenance_overview.pdf": "5562d310187b54aff3965c59f03c2a8bd183339e8c85ce2e212a07995562e010",
+    "figures/candidates/v_tensor_sanitization.pdf": "bb0db089d26b494c7a8573624b00a1161dde9c70573bdbbb24217f65ce5c0b1b"
+  },
+  "figure_status": "Hashes recorded only; assets and exact figure regeneration are not bundled",
+  "numerical_tables": 11,
+  "paper_pdf_sha256": "50a3bfa2a3669393f87c7d8dd5e49bfda966234a42567fdecc5b59ea22e4f9db",
+  "schema_version": 1,
+  "source_sha256": {
+    "new_main.tex": "d2316afe7425cf06d6a161a028849db72043d0eae6d5308922e0828d1865af28",
+    "new_sections/abstract.tex": "0663f168d94fcfd53d9dabddd7f14ac4e947f09305d50484cf7618703b08bce5",
+    "new_sections/ai-use.tex": "d3970c32dcfdac3895506c29427f0b49398ebd1cced447bf336047cc5c99584b",
+    "new_sections/appendix.tex": "e2ea972d745051de3108b373a43a31dbfbd9437aa26b5d7674dbb461cc11ef69",
+    "new_sections/appendix_calibration_table.tex": "24122d0ac1cc7d824d3795d03312efe6638b9337da16ecd3af6de3e12c8f337e",
+    "new_sections/appendix_timing_lengths.tex": "e197e77783563f68121401b27f8c0068cd7255e092432eefc1aa14a14ffec26c",
+    "new_sections/ethics.tex": "3d8192f5cb804fca1057ba416fa84aa0042c61cc3644a89e5c512c8e0c27c85a",
+    "new_sections/evaluation.tex": "4f844521cd9d6604a53237527d966c72a8c1dad29907378a7c9c1f48e8043a1b",
+    "new_sections/findings.tex": "a2c86395e5ee4a2f47ca1ff593302f56a17926572741c6a21ab2bb7526e277c0",
+    "new_sections/introduction.tex": "e374dfa023d217670912f963ec7e9c68dc6541fbee423d44c74137f6d1ee1ea5",
+    "new_sections/problem.tex": "195a9bdca7ec09dae208ce6a64a5db6ae35d9b052629935e9119ad005d7cec02",
+    "new_sections/reproducibility.tex": "c487beb3c22e784345b2faed2e63bceac97d4be5c5050fa6dbe0c35055da606c"
+  },
+  "title": "To Cache or Not to Cache: Understanding and Mitigating Safety Incompatibility in Cross-Model KV Cache Reuse"
+}

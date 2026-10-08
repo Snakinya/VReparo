@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "author_list_complete": true,
+  "authors": [
+    {
+      "order": 1,
+      "name": "Zhiwei Lin",
+      "given_name": "Zhiwei",
+      "family_name": "Lin",
+      "affiliation": "National University of Singapore",
+      "email": "zhiweil@u.nus.edu"
+    },
+    {
+      "order": 2,
+      "name": "Jiahao Liu",
+      "given_name": "Jiahao",
+      "family_name": "Liu",
+      "affiliation": "Ant Group",
+      "email": "ljiahaomail@gmail.com"
+    },
+    {
+      "order": 3,
+      "name": "Yan Liu",
+      "given_name": "Yan",
+      "family_name": "Liu",
+      "affiliation": "Ant Group",
+      "email": "bencao.ly@antgroup.com"
+    },
+    {
+      "order": 4,
+      "name": "Chengpeng Wang",
+      "given_name": "Chengpeng",
+      "family_name": "Wang",
+      "affiliation": "National University of Singapore",
+      "email": "wang-chengpeng@nus.edu.sg"
+    }
+  ]
+}

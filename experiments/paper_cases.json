@@ -1,0 +1,129 @@
+{
+  "calibration": {
+    "alphas": [
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "qa_gate": false,
+    "safe_delta_max": 0.05,
+    "safe_type_delta_max": 0.2
+  },
+  "cases": {
+    "base_direct": {
+      "alpha": 0.25,
+      "max_input_tokens": 7680,
+      "max_raw_tokens": 7500,
+      "operator": "direct",
+      "protocol": "tokenizer_chat_template",
+      "receiver": {
+        "foundation": "models/Llama-3-8B-Instruct",
+        "name": "llama3_8b_instruct",
+        "repository": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "revision": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+        "training_task": "instruction tuning and safety post-training"
+      },
+      "recompute_group": null,
+      "sender": {
+        "foundation": "models/Meta-Llama-3-8B",
+        "name": "llama3_8b_base",
+        "repository": "meta-llama/Meta-Llama-3-8B",
+        "revision": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
+        "training_task": "none"
+      }
+    },
+    "base_droid": {
+      "alpha": 0.25,
+      "max_input_tokens": 7680,
+      "max_raw_tokens": 7500,
+      "operator": "droid",
+      "protocol": "tokenizer_chat_template",
+      "receiver": {
+        "foundation": "models/Llama-3-8B-Instruct",
+        "name": "llama3_8b_instruct",
+        "repository": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "revision": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+        "training_task": "instruction tuning and safety post-training"
+      },
+      "recompute_group": [
+        0,
+        1
+      ],
+      "sender": {
+        "foundation": "models/Meta-Llama-3-8B",
+        "name": "llama3_8b_base",
+        "repository": "meta-llama/Meta-Llama-3-8B",
+        "revision": "8cde5ca8380496c9a6cc7ef3a8b46a0372a1d920",
+        "training_task": "none"
+      }
+    },
+    "code_direct": {
+      "alpha": 1.0,
+      "max_input_tokens": 7680,
+      "max_raw_tokens": 7500,
+      "operator": "direct",
+      "protocol": "lori_saferpaca_no_input",
+      "receiver": {
+        "adapter": "models/adapters/LoRI-D_safety_llama3_rank_32",
+        "foundation": "models/Meta-Llama-3-8B",
+        "name": "safety",
+        "repository": "juzhengz/LoRI-D_safety_llama3_rank_32",
+        "revision": "a3bd0d97cc69958079a9eb4ba8fdbd1035943039",
+        "training_task": "SaferPaca safety alignment"
+      },
+      "recompute_group": null,
+      "sender": {
+        "adapter": "models/adapters/LoRI-D_code_llama3_rank_32",
+        "foundation": "models/Meta-Llama-3-8B",
+        "name": "code",
+        "repository": "juzhengz/LoRI-D_code_llama3_rank_32",
+        "revision": "63e0605334493ef9785e2130b1e42be1347d5783",
+        "training_task": "CodeAlpaca, 2 epochs"
+      }
+    },
+    "code_droid": {
+      "alpha": 1.0,
+      "max_input_tokens": 7680,
+      "max_raw_tokens": 7500,
+      "operator": "droid",
+      "protocol": "lori_saferpaca_no_input",
+      "receiver": {
+        "adapter": "models/adapters/LoRI-D_safety_llama3_rank_32",
+        "foundation": "models/Meta-Llama-3-8B",
+        "name": "safety",
+        "repository": "juzhengz/LoRI-D_safety_llama3_rank_32",
+        "revision": "a3bd0d97cc69958079a9eb4ba8fdbd1035943039",
+        "training_task": "SaferPaca safety alignment"
+      },
+      "recompute_group": [
+        0,
+        1
+      ],
+      "sender": {
+        "adapter": "models/adapters/LoRI-D_code_llama3_rank_32",
+        "foundation": "models/Meta-Llama-3-8B",
+        "name": "code",
+        "repository": "juzhengz/LoRI-D_code_llama3_rank_32",
+        "revision": "63e0605334493ef9785e2130b1e42be1347d5783",
+        "training_task": "CodeAlpaca, 2 epochs"
+      }
+    }
+  },
+  "fitting": {
+    "max_positions_per_text": 128,
+    "ridge": 1.0,
+    "selected_offsets_modulo_four": [
+      0,
+      1
+    ],
+    "source_prefix_per_domain": 64,
+    "texts_per_domain": 32
+  },
+  "schema_version": 1,
+  "timing": {
+    "decode_tokens": 32,
+    "repeats": 5,
+    "warmup": 5
+  }
+}

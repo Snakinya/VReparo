@@ -1,0 +1,24 @@
+{
+  "alpha": null,
+  "max_input_tokens": 7680,
+  "max_raw_tokens": 7500,
+  "operator": "direct",
+  "protocol": "lori_saferpaca_no_input",
+  "receiver": {
+    "adapter": "models/adapters/LoRI-D_code_llama3_rank_32",
+    "foundation": "models/Meta-Llama-3-8B",
+    "name": "code",
+    "repository": "juzhengz/LoRI-D_code_llama3_rank_32",
+    "revision": "63e0605334493ef9785e2130b1e42be1347d5783",
+    "training_task": "CodeAlpaca, 2 epochs"
+  },
+  "recompute_group": null,
+  "sender": {
+    "adapter": "models/adapters/LoRI-D_safety_llama3_rank_32",
+    "foundation": "models/Meta-Llama-3-8B",
+    "name": "safety",
+    "repository": "juzhengz/LoRI-D_safety_llama3_rank_32",
+    "revision": "a3bd0d97cc69958079a9eb4ba8fdbd1035943039",
+    "training_task": "SaferPaca safety alignment"
+  }
+}

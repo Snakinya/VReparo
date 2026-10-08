@@ -1,0 +1,376 @@
+{
+  "table_04": {
+    "title": "Resident-cache latency",
+    "columns": [
+      "Model",
+      "Configuration",
+      "Native TTFT (ms)",
+      "Reuse TTFT (ms)",
+      "VReparo TTFT (ms)",
+      "Speedup",
+      "Reuse generation (ms/token)",
+      "VReparo generation (ms/token)"
+    ],
+    "rows": [
+      [
+        "LoRI-D",
+        "Full KV",
+        "1,355.84",
+        "54.71",
+        "88.98",
+        "15.24x",
+        "51.15",
+        "51.15"
+      ],
+      [
+        "LoRI-D",
+        "DroidSpeak",
+        "1,344.16",
+        "201.69",
+        "299.11",
+        "4.49x",
+        "51.15",
+        "51.14"
+      ],
+      [
+        "Llama-3-8B",
+        "Full KV",
+        "1,350.37",
+        "54.62",
+        "88.80",
+        "15.21x",
+        "51.08",
+        "51.07"
+      ],
+      [
+        "Llama-3-8B",
+        "DroidSpeak",
+        "1,347.80",
+        "201.59",
+        "298.40",
+        "4.52x",
+        "51.04",
+        "51.03"
+      ]
+    ]
+  },
+  "table_07": {
+    "title": "XSTest development candidates",
+    "columns": [
+      "Model",
+      "Configuration",
+      "Fitting texts",
+      "Positions per head",
+      "Alpha",
+      "Unsafe change (pp)",
+      "Safe change (pp)",
+      "Max subtype change (pp)",
+      "Eligible",
+      "Selected"
+    ],
+    "rows": [
+      [
+        "LoRI-D",
+        "Full KV",
+        "64",
+        "5,943",
+        "0.1",
+        "2.0",
+        "-21.6",
+        "0.0",
+        "Yes",
+        "No"
+      ],
+      [
+        "LoRI-D",
+        "Full KV",
+        "64",
+        "5,943",
+        "0.25",
+        "4.5",
+        "-21.6",
+        "0.0",
+        "Yes",
+        "No"
+      ],
+      [
+        "LoRI-D",
+        "Full KV",
+        "64",
+        "5,943",
+        "0.5",
+        "18.0",
+        "-21.2",
+        "0.0",
+        "Yes",
+        "No"
+      ],
+      [
+        "LoRI-D",
+        "Full KV",
+        "64",
+        "5,943",
+        "1.0",
+        "51.0",
+        "-13.6",
+        "12.0",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "LoRI-D",
+        "DroidSpeak",
+        "64",
+        "5,815",
+        "0.1",
+        "2.0",
+        "-21.6",
+        "0.0",
+        "Yes",
+        "No"
+      ],
+      [
+        "LoRI-D",
+        "DroidSpeak",
+        "64",
+        "5,815",
+        "0.25",
+        "8.5",
+        "-21.6",
+        "0.0",
+        "Yes",
+        "No"
+      ],
+      [
+        "LoRI-D",
+        "DroidSpeak",
+        "64",
+        "5,815",
+        "0.5",
+        "18.0",
+        "-20.8",
+        "0.0",
+        "Yes",
+        "No"
+      ],
+      [
+        "LoRI-D",
+        "DroidSpeak",
+        "64",
+        "5,815",
+        "1.0",
+        "58.5",
+        "-16.8",
+        "0.0",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Llama-3-8B",
+        "Full KV",
+        "64",
+        "5,335",
+        "0.1",
+        "13.5",
+        "0.0",
+        "12.0",
+        "Yes",
+        "No"
+      ],
+      [
+        "Llama-3-8B",
+        "Full KV",
+        "64",
+        "5,335",
+        "0.25",
+        "27.5",
+        "1.6",
+        "12.0",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Llama-3-8B",
+        "Full KV",
+        "64",
+        "5,335",
+        "0.5",
+        "41.5",
+        "9.6",
+        "28.0",
+        "No",
+        "No"
+      ],
+      [
+        "Llama-3-8B",
+        "Full KV",
+        "64",
+        "5,335",
+        "1.0",
+        "53.5",
+        "52.4",
+        "84.0",
+        "No",
+        "No"
+      ],
+      [
+        "Llama-3-8B",
+        "DroidSpeak",
+        "64",
+        "5,239",
+        "0.1",
+        "11.0",
+        "0.8",
+        "12.0",
+        "Yes",
+        "No"
+      ],
+      [
+        "Llama-3-8B",
+        "DroidSpeak",
+        "64",
+        "5,239",
+        "0.25",
+        "17.0",
+        "2.8",
+        "12.0",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Llama-3-8B",
+        "DroidSpeak",
+        "64",
+        "5,239",
+        "0.5",
+        "24.0",
+        "12.0",
+        "24.0",
+        "No",
+        "No"
+      ],
+      [
+        "Llama-3-8B",
+        "DroidSpeak",
+        "64",
+        "5,239",
+        "1.0",
+        "32.0",
+        "54.8",
+        "72.0",
+        "No",
+        "No"
+      ]
+    ]
+  },
+  "table_08": {
+    "title": "Token lengths for 50 timing prompts",
+    "columns": [
+      "Model",
+      "Configuration",
+      "Prompt min/mean/max",
+      "Prefix mean",
+      "Suffix min/mean/max"
+    ],
+    "rows": [
+      [
+        "LoRI-D",
+        "Full KV",
+        "1,833/7,262.20/7,530",
+        "---",
+        "---"
+      ],
+      [
+        "LoRI-D",
+        "DroidSpeak",
+        "1,833/7,261.30/7,529",
+        "7,210.04",
+        "42/51.26/80"
+      ],
+      [
+        "Llama-3-8B",
+        "Full KV",
+        "1,814/7,243.20/7,511",
+        "---",
+        "---"
+      ],
+      [
+        "Llama-3-8B",
+        "DroidSpeak",
+        "1,814/7,242.30/7,510",
+        "7,191.04",
+        "42/51.26/80"
+      ]
+    ]
+  },
+  "table_09": {
+    "title": "QA token F1 (x100)",
+    "columns": [
+      "Model",
+      "Configuration",
+      "HotpotQA Native",
+      "HotpotQA Reuse",
+      "HotpotQA VReparo",
+      "2Wiki Native",
+      "2Wiki Reuse",
+      "2Wiki VReparo",
+      "MultiField Native",
+      "MultiField Reuse",
+      "MultiField VReparo"
+    ],
+    "rows": [
+      [
+        "LoRI-D",
+        "Full KV",
+        "28.90",
+        "22.48",
+        "21.13",
+        "27.85",
+        "25.19",
+        "22.03",
+        "50.71",
+        "48.71",
+        "46.42"
+      ],
+      [
+        "LoRI-D",
+        "DroidSpeak",
+        "27.36",
+        "27.90",
+        "28.92",
+        "27.85",
+        "27.40",
+        "26.99",
+        "50.75",
+        "51.38",
+        "49.55"
+      ],
+      [
+        "Llama-3-8B",
+        "Full KV",
+        "49.64",
+        "9.64",
+        "11.54",
+        "34.27",
+        "10.60",
+        "11.59",
+        "44.45",
+        "13.28",
+        "13.50"
+      ],
+      [
+        "Llama-3-8B",
+        "DroidSpeak",
+        "47.46",
+        "43.43",
+        "43.36",
+        "34.27",
+        "40.64",
+        "40.52",
+        "44.61",
+        "41.94",
+        "41.67"
+      ]
+    ]
+  }
+}

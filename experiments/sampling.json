@@ -1,0 +1,4320 @@
+{
+  "eligible_sizes": {
+    "qa": 143,
+    "safety": 330
+  },
+  "isolation": "Candidate IDs and normalized exact question/context or prompt exclusion; not semantic deduplication",
+  "pools": {
+    "qa": [
+      {
+        "id": "fc6267db9ba02bbb251960231bc87251c581110e4e2b5f3f",
+        "length": 8616,
+        "source_index": 0,
+        "stratum": "medium"
+      },
+      {
+        "id": "d542fcd45bbf5112eee9127f04ae060a887c8ef2050aa160",
+        "length": 11525,
+        "source_index": 1,
+        "stratum": "long"
+      },
+      {
+        "id": "cb9214532284b8202912b1b75592832daef0b109593185a0",
+        "length": 11935,
+        "source_index": 2,
+        "stratum": "long"
+      },
+      {
+        "id": "105e7f4d337799315ddf870acc4ff2a62a1e6cdf489086cd",
+        "length": 11879,
+        "source_index": 3,
+        "stratum": "long"
+      },
+      {
+        "id": "5ff08452b84748458e71d82a6d387599969311fd61cd8fd1",
+        "length": 9865,
+        "source_index": 4,
+        "stratum": "medium"
+      },
+      {
+        "id": "97b31d6d7a9137c220726ad51a6dca3e957e2c94ce5e65b8",
+        "length": 10034,
+        "source_index": 5,
+        "stratum": "medium"
+      },
+      {
+        "id": "11a7ad9d646184c16480376226d58f1b2754b095563c8344",
+        "length": 9438,
+        "source_index": 6,
+        "stratum": "medium"
+      },
+      {
+        "id": "3dd1ade26fd583844dd2af051d61eb20856ccc8e23abae59",
+        "length": 1267,
+        "source_index": 7,
+        "stratum": "short"
+      },
+      {
+        "id": "f039fe9cc81a0a312f9899beca2fe26b710bf8c3aa23a4d9",
+        "length": 7877,
+        "source_index": 8,
+        "stratum": "short"
+      },
+      {
+        "id": "a30caa5dafcc37835bfe4093f129017adf4c814e9016e10d",
+        "length": 6021,
+        "source_index": 9,
+        "stratum": "short"
+      },
+      {
+        "id": "72feb2a8e5b92548a357bfc11e94050464f93f1ce286418c",
+        "length": 12090,
+        "source_index": 10,
+        "stratum": "long"
+      },
+      {
+        "id": "77439b0a62b6de3a022b1d7a5678c1c00fa8d9af42fea1bf",
+        "length": 11381,
+        "source_index": 11,
+        "stratum": "long"
+      },
+      {
+        "id": "21bc398556b5612bf0437043cd2800e943bab5929c4bccc5",
+        "length": 11127,
+        "source_index": 12,
+        "stratum": "medium"
+      },
+      {
+        "id": "e0998dbc2db68c7b18adff7fcc67081acc865c974b721312",
+        "length": 6961,
+        "source_index": 13,
+        "stratum": "short"
+      },
+      {
+        "id": "139d2fcf8763003414ebd0187eb30b94930de13c4ab754a0",
+        "length": 11852,
+        "source_index": 14,
+        "stratum": "long"
+      },
+      {
+        "id": "c261ca6aeaf366815232e91db1ef4dc8408cec3750c38ee9",
+        "length": 8651,
+        "source_index": 15,
+        "stratum": "medium"
+      },
+      {
+        "id": "ab016faac478c4acc6e9ed3ed87f9e29dbed47fd946be244",
+        "length": 4109,
+        "source_index": 16,
+        "stratum": "short"
+      },
+      {
+        "id": "cae319fad2385d30d79efac0fb61e58518fbdc0703be3b0f",
+        "length": 12697,
+        "source_index": 17,
+        "stratum": "long"
+      },
+      {
+        "id": "e4df9576e5cd102024e81baf94a43325335d0ba2d8892041",
+        "length": 10290,
+        "source_index": 18,
+        "stratum": "medium"
+      },
+      {
+        "id": "5e3362de0244d2b96c83958c4d3229151999292c369b0197",
+        "length": 11185,
+        "source_index": 19,
+        "stratum": "medium"
+      },
+      {
+        "id": "fda38e0c47dcd2b4f1de4adefeb00ab431221c0ef9adeb31",
+        "length": 8020,
+        "source_index": 20,
+        "stratum": "short"
+      },
+      {
+        "id": "ef245cc27251f559f3cd900c11c7bf9f303eec3c4b346802",
+        "length": 9946,
+        "source_index": 21,
+        "stratum": "medium"
+      },
+      {
+        "id": "3a75aba6bc2496016339474aef28ffdc9dbebdc00ccc166b",
+        "length": 3766,
+        "source_index": 22,
+        "stratum": "short"
+      },
+      {
+        "id": "3dc3db870ea907282d3160c597c4d618ae6ba2a6bdd712bb",
+        "length": 8462,
+        "source_index": 23,
+        "stratum": "short"
+      },
+      {
+        "id": "26a5366c80c3a569c474a3990f3383beb125d34149e8ed3e",
+        "length": 10483,
+        "source_index": 24,
+        "stratum": "medium"
+      },
+      {
+        "id": "6eafb48c7a974b5097cb4752eb3853dbac8f622173d24e44",
+        "length": 6361,
+        "source_index": 25,
+        "stratum": "short"
+      },
+      {
+        "id": "1ceb1c91662d241b3421853112a91b5868d1b81fe3b88ce4",
+        "length": 11209,
+        "source_index": 26,
+        "stratum": "medium"
+      },
+      {
+        "id": "7e525340152c2f4b26d7fba85c680dde7b75af77356a7c22",
+        "length": 5903,
+        "source_index": 27,
+        "stratum": "short"
+      },
+      {
+        "id": "b6352c61b4a748448ce38882861cd5ae5f7f2869a81e92a1",
+        "length": 2045,
+        "source_index": 28,
+        "stratum": "short"
+      },
+      {
+        "id": "4b83e873a551cd83a2e409d2b4467f74dd332326fcbca843",
+        "length": 11886,
+        "source_index": 29,
+        "stratum": "long"
+      },
+      {
+        "id": "cb677158d6f710ab0cb440b2024cc61c942a1ea4a963087d",
+        "length": 12070,
+        "source_index": 30,
+        "stratum": "long"
+      },
+      {
+        "id": "4b1df711ec0557b9df23de534c1ce99b7f37528f643b8c29",
+        "length": 10275,
+        "source_index": 31,
+        "stratum": "medium"
+      },
+      {
+        "id": "02c6e6b95d2a200df20bea7495469c79b1d89ed560890ee3",
+        "length": 9811,
+        "source_index": 32,
+        "stratum": "medium"
+      },
+      {
+        "id": "3056e292ff1583fe84207873be57c6ec28c28b425087ca84",
+        "length": 11339,
+        "source_index": 33,
+        "stratum": "long"
+      },
+      {
+        "id": "9729ff4cf6a13382c88896cf5a5b176d082cc1137c66b38b",
+        "length": 9385,
+        "source_index": 34,
+        "stratum": "medium"
+      },
+      {
+        "id": "220230ff5154e6f0ccad63965d06ce69a9226bd72cc32fa4",
+        "length": 11830,
+        "source_index": 35,
+        "stratum": "long"
+      },
+      {
+        "id": "01aff89f9ce55470c12450b595c268a225a638582dac204f",
+        "length": 11091,
+        "source_index": 36,
+        "stratum": "medium"
+      },
+      {
+        "id": "b785963089bd7f81ee294751c688af85bfe2863dba623373",
+        "length": 9169,
+        "source_index": 37,
+        "stratum": "medium"
+      },
+      {
+        "id": "72a769d6d0fd1c5c90974e60ab97e88e6853b9115a7fb85e",
+        "length": 11865,
+        "source_index": 38,
+        "stratum": "long"
+      },
+      {
+        "id": "207efa55e96afdf705e48bc57b58fc8232bb972a47073d50",
+        "length": 11344,
+        "source_index": 39,
+        "stratum": "long"
+      },
+      {
+        "id": "ec3b5bcfa070b047c769413b99a2f32e4f5d2f803cf81a43",
+        "length": 8315,
+        "source_index": 40,
+        "stratum": "short"
+      },
+      {
+        "id": "ed6c85899d2a29f6dc8e02ba62bc8f1b1043a8c135fdd132",
+        "length": 11635,
+        "source_index": 41,
+        "stratum": "long"
+      },
+      {
+        "id": "4c34b33d7a545c4eba3848d54fc4568fdf186e849897aa6e",
+        "length": 8515,
+        "source_index": 42,
+        "stratum": "short"
+      },
+      {
+        "id": "74ae5bfc8bdac7b560ec92b71604e86654f87b8f7fcbb30a",
+        "length": 11577,
+        "source_index": 43,
+        "stratum": "long"
+      },
+      {
+        "id": "75f3798af3596cffefe8b932a00b1976f3f25fa0f42089fc",
+        "length": 12247,
+        "source_index": 44,
+        "stratum": "long"
+      },
+      {
+        "id": "eac05e5d0936f802e28b0c5081a2c2a1a94fe4f2c20cb2df",
+        "length": 9574,
+        "source_index": 45,
+        "stratum": "medium"
+      },
+      {
+        "id": "1a71b5a73ffb21cb52d41e09b1f861748b60f1e59273a080",
+        "length": 6346,
+        "source_index": 46,
+        "stratum": "short"
+      },
+      {
+        "id": "963e90eba94bba5bf5cf56755032d7bd4a3e4e225d3b8d14",
+        "length": 7662,
+        "source_index": 47,
+        "stratum": "short"
+      },
+      {
+        "id": "99635fd2d7a227cb3360253cf0f5759ed87bbac33593d830",
+        "length": 6717,
+        "source_index": 48,
+        "stratum": "short"
+      },
+      {
+        "id": "76096cce081ab5b9ef72be19076ee0a79d9e9239474e8b73",
+        "length": 11051,
+        "source_index": 49,
+        "stratum": "medium"
+      },
+      {
+        "id": "670498f9d7fd2582c5791cad2fe212f580d316fa49a8a984",
+        "length": 3291,
+        "source_index": 50,
+        "stratum": "short"
+      },
+      {
+        "id": "2903a54db35e788f31a967bdfa021d64ac18ed7e1aed919a",
+        "length": 11852,
+        "source_index": 51,
+        "stratum": "long"
+      },
+      {
+        "id": "a7c311f9f6423063e02c8236bdd83cc8059fcb9fe78b4fff",
+        "length": 10635,
+        "source_index": 52,
+        "stratum": "medium"
+      },
+      {
+        "id": "afa4eccc7b711ace3270c9cbcd784c971a4f0f8d22629ebf",
+        "length": 5187,
+        "source_index": 53,
+        "stratum": "short"
+      },
+      {
+        "id": "fddb2049ab13cf002eb07f658ae13d9f99d83538ed881e9b",
+        "length": 6222,
+        "source_index": 54,
+        "stratum": "short"
+      },
+      {
+        "id": "87fd3f0590498461d595ff1823632c79b66cf313cf55fbb3",
+        "length": 9537,
+        "source_index": 55,
+        "stratum": "medium"
+      },
+      {
+        "id": "47b3fb2eb0b90839a7887fa2138662a58c0170c96479190a",
+        "length": 10232,
+        "source_index": 56,
+        "stratum": "medium"
+      },
+      {
+        "id": "4b0f3138abafd9fe2f3a16c3b2ffd55199bc3771070b5cd9",
+        "length": 11849,
+        "source_index": 57,
+        "stratum": "long"
+      },
+      {
+        "id": "ff048b34a9405c880ccf710acdf1a53244e6039cb76c793a",
+        "length": 11456,
+        "source_index": 58,
+        "stratum": "long"
+      },
+      {
+        "id": "d9f5437fa85841cb12798def39a30721d3d2d140b4982854",
+        "length": 8823,
+        "source_index": 59,
+        "stratum": "medium"
+      },
+      {
+        "id": "93d2774c99edbde88789a9f989642ff160871ca09e66e46a",
+        "length": 12372,
+        "source_index": 60,
+        "stratum": "long"
+      },
+      {
+        "id": "de85aaa5c535ba20bdcad5fbabfe13a03687374265a57b44",
+        "length": 3708,
+        "source_index": 61,
+        "stratum": "short"
+      },
+      {
+        "id": "232c2ba7b8bb5f22b77e5c55961d0cd0fe673d26870e157b",
+        "length": 10261,
+        "source_index": 62,
+        "stratum": "medium"
+      },
+      {
+        "id": "780b1664552881f2c14a0d943e746855f83709a5399bb4aa",
+        "length": 9594,
+        "source_index": 63,
+        "stratum": "medium"
+      },
+      {
+        "id": "f1c0b9a9ec47ccda8ba4b1be0ca7083b961ba0f06b2a4df7",
+        "length": 10589,
+        "source_index": 65,
+        "stratum": "medium"
+      },
+      {
+        "id": "75439ed8609c12817aaee0fa4f749aebb3e4a36dfa72390e",
+        "length": 9116,
+        "source_index": 66,
+        "stratum": "medium"
+      },
+      {
+        "id": "8a5d7c131d291d2c7cf2c20ea36a629f969402e0c50a8a8a",
+        "length": 8149,
+        "source_index": 67,
+        "stratum": "short"
+      },
+      {
+        "id": "0879d3f078165bdc1aabca26c8526e66d3959e8ab2c6d903",
+        "length": 9716,
+        "source_index": 70,
+        "stratum": "medium"
+      },
+      {
+        "id": "6320310adc4a826b1bb240c63ac1735b7b29e93a59782364",
+        "length": 6601,
+        "source_index": 72,
+        "stratum": "short"
+      },
+      {
+        "id": "11b4c60bf00735e20ae817b940d86aa8922e2fcdaa3a0b47",
+        "length": 8751,
+        "source_index": 73,
+        "stratum": "medium"
+      },
+      {
+        "id": "c47c8d3b1917f017cafaecbb4cddd6b92171854247957c08",
+        "length": 8392,
+        "source_index": 74,
+        "stratum": "short"
+      },
+      {
+        "id": "6e541b3b8fc7e59da0da6548a17932b403b2e865d4036982",
+        "length": 10490,
+        "source_index": 76,
+        "stratum": "medium"
+      },
+      {
+        "id": "5e7675388334946fc508c4c8ac4ab0c491910fcc0e048bfd",
+        "length": 3945,
+        "source_index": 78,
+        "stratum": "short"
+      },
+      {
+        "id": "1d81e1f410acc77f1d9a844f811045c2cecb0fdc9e717d41",
+        "length": 6674,
+        "source_index": 80,
+        "stratum": "short"
+      },
+      {
+        "id": "a16ac581bde4459861c8681858b07f82363f66142beed4c2",
+        "length": 11314,
+        "source_index": 82,
+        "stratum": "long"
+      },
+      {
+        "id": "3e4cce5082e968aec7f0c008b1acbd111f505d0579d1c9ee",
+        "length": 11891,
+        "source_index": 84,
+        "stratum": "long"
+      },
+      {
+        "id": "9dc6d234e2406aef691ea02ddc2064f343fc30cbc534c937",
+        "length": 3135,
+        "source_index": 85,
+        "stratum": "short"
+      },
+      {
+        "id": "21849142d27a4c8410bf8e8042f016054a0a0493e0e8b6e6",
+        "length": 11061,
+        "source_index": 87,
+        "stratum": "medium"
+      },
+      {
+        "id": "f5ca9a0360773900f848072d3d7c63034922bdd0e6925e64",
+        "length": 7370,
+        "source_index": 89,
+        "stratum": "short"
+      },
+      {
+        "id": "561c378ca284bab34f735f05e21dae8653ca251f6480d6e4",
+        "length": 12308,
+        "source_index": 91,
+        "stratum": "long"
+      },
+      {
+        "id": "4aee23759e842807b156492356b920a11236c7ea3da20732",
+        "length": 11675,
+        "source_index": 92,
+        "stratum": "long"
+      },
+      {
+        "id": "6d8f9be94b67277442c42aa9b437edaf901efec0d0959bda",
+        "length": 7865,
+        "source_index": 94,
+        "stratum": "short"
+      },
+      {
+        "id": "b7af427ee230063a2aabb35691c7a81670c0b7e85ac3b7b2",
+        "length": 11812,
+        "source_index": 95,
+        "stratum": "long"
+      },
+      {
+        "id": "666b2401378aceb59c9a4d6cc75b006f7c6af8a00c7d6f19",
+        "length": 12038,
+        "source_index": 96,
+        "stratum": "long"
+      },
+      {
+        "id": "a2bb6c8de2a57c51b35e9d5c005cf46e1c0457f4086ef77d",
+        "length": 9588,
+        "source_index": 97,
+        "stratum": "medium"
+      },
+      {
+        "id": "203709148e7052e14bf493f95037458b606b42f2fff54c79",
+        "length": 12402,
+        "source_index": 99,
+        "stratum": "long"
+      },
+      {
+        "id": "bcd98af30c2eb7ce1233459715d27f428b111d12fea529b4",
+        "length": 6055,
+        "source_index": 103,
+        "stratum": "short"
+      },
+      {
+        "id": "4636487a1855382398fe1e54284cb7dd3d7b8d178ac4a476",
+        "length": 11592,
+        "source_index": 104,
+        "stratum": "long"
+      },
+      {
+        "id": "a93aa642fb8802a99b36cd62febe1c4e995096a9320b00c5",
+        "length": 11463,
+        "source_index": 105,
+        "stratum": "long"
+      },
+      {
+        "id": "9336554e511e88766228ffa1acd1c6f82c9a41046514c253",
+        "length": 12353,
+        "source_index": 106,
+        "stratum": "long"
+      },
+      {
+        "id": "5affd6b287c8ce97502760e33a71598e8eee24b78c3dd95c",
+        "length": 11879,
+        "source_index": 110,
+        "stratum": "long"
+      },
+      {
+        "id": "56dbceaf2e826fbb177035f03d7a263d62365856f21f39da",
+        "length": 11993,
+        "source_index": 111,
+        "stratum": "long"
+      },
+      {
+        "id": "ee07a420f322205e992788e25c0b256cadcd99abd359ff0f",
+        "length": 10968,
+        "source_index": 112,
+        "stratum": "medium"
+      },
+      {
+        "id": "4d6aafffd109cb61fd543f44bda770fda0cf1e1c3798548b",
+        "length": 3326,
+        "source_index": 114,
+        "stratum": "short"
+      },
+      {
+        "id": "38bd41e515abf2a44d29c593748db043ba2276d93938fdad",
+        "length": 8571,
+        "source_index": 116,
+        "stratum": "medium"
+      },
+      {
+        "id": "e54d1e07a1fc2ce2afdf7e75f79561d8fe0abd22f4d8bd53",
+        "length": 11970,
+        "source_index": 117,
+        "stratum": "long"
+      },
+      {
+        "id": "034b6ac41cd902b7fbde6b304eb2930d8eea616924ba461f",
+        "length": 8524,
+        "source_index": 118,
+        "stratum": "medium"
+      },
+      {
+        "id": "b4dfcf1c4f152ba5684531d0eaa43f33ec5b185b92a36884",
+        "length": 11587,
+        "source_index": 119,
+        "stratum": "long"
+      },
+      {
+        "id": "3faa54c1f192293c709684aa60c6e2e8cfe34ff55c8b6248",
+        "length": 4266,
+        "source_index": 121,
+        "stratum": "short"
+      },
+      {
+        "id": "9303f959145f198df63d2d7ec604a9d6efcb3e8daca89e91",
+        "length": 11168,
+        "source_index": 122,
+        "stratum": "medium"
+      },
+      {
+        "id": "a18c0ece7c2ae88d2f9f3ffc5eaa13297a1b5d0125a172ad",
+        "length": 10145,
+        "source_index": 123,
+        "stratum": "medium"
+      },
+      {
+        "id": "c16a3dd0b5b97180359715cab5c41d528cf2a99e2744f037",
+        "length": 8413,
+        "source_index": 125,
+        "stratum": "short"
+      },
+      {
+        "id": "d7d92c85b8becc33e60fc03507933f8eaf53b5e1067286de",
+        "length": 3539,
+        "source_index": 126,
+        "stratum": "short"
+      },
+      {
+        "id": "480b33cc38878ea4fe81b796d09ba2d10cca554611e323ec",
+        "length": 5487,
+        "source_index": 127,
+        "stratum": "short"
+      },
+      {
+        "id": "ad26b1fdaa97e8ef1c290a41a9151cc6b453756cb2715176",
+        "length": 11738,
+        "source_index": 128,
+        "stratum": "long"
+      },
+      {
+        "id": "2bf8384417cec2f1a2d43a2602326d90a97622d87898b1cc",
+        "length": 8995,
+        "source_index": 132,
+        "stratum": "medium"
+      },
+      {
+        "id": "826474c90684b1813df9324f779959a5e060d1cfc893a85f",
+        "length": 6337,
+        "source_index": 133,
+        "stratum": "short"
+      },
+      {
+        "id": "5748ce1eca37fc55596e58fcff71e45363396002d28e0af9",
+        "length": 7563,
+        "source_index": 135,
+        "stratum": "short"
+      },
+      {
+        "id": "b3647c02310a89ccb2822c163da3bead1ad3cd21948d4769",
+        "length": 12338,
+        "source_index": 138,
+        "stratum": "long"
+      },
+      {
+        "id": "ea58013717bdbe9f0bad1991ed03d1afe3208bf514d9a2cd",
+        "length": 10664,
+        "source_index": 141,
+        "stratum": "medium"
+      },
+      {
+        "id": "228572a285ddcbb4947f362c07531238d1eec58e0fe0cfc6",
+        "length": 11934,
+        "source_index": 142,
+        "stratum": "long"
+      },
+      {
+        "id": "e9b828ee7169d1978f3bcb6de5bbb0f54f9ee3bfc0ffdb8b",
+        "length": 12544,
+        "source_index": 144,
+        "stratum": "long"
+      },
+      {
+        "id": "88b095fb93df1d962625daa1796a46ce4721c316b0ab819b",
+        "length": 12082,
+        "source_index": 145,
+        "stratum": "long"
+      },
+      {
+        "id": "e9348ea3d217789522ba17d5dd2c69c01bacc9d677c614a4",
+        "length": 9364,
+        "source_index": 147,
+        "stratum": "medium"
+      },
+      {
+        "id": "8e9e0bac1908657b2f48452fe70dd4f7ab765b9633b75627",
+        "length": 11723,
+        "source_index": 149,
+        "stratum": "long"
+      },
+      {
+        "id": "3acb0cc0a04a3f71078ee120e1b7ca4f089548b7cc8a8056",
+        "length": 4374,
+        "source_index": 154,
+        "stratum": "short"
+      },
+      {
+        "id": "90caafc7fe51eee4143874971f67bb3e0107d26179c437f7",
+        "length": 4002,
+        "source_index": 155,
+        "stratum": "short"
+      },
+      {
+        "id": "8fddd32ef1d88a5f8fde49152fc015eb80b3d60d1108d073",
+        "length": 12183,
+        "source_index": 156,
+        "stratum": "long"
+      },
+      {
+        "id": "bb5fb55b76b2e47a59f48907aca9db96fafabd5b874e83cf",
+        "length": 11862,
+        "source_index": 157,
+        "stratum": "long"
+      },
+      {
+        "id": "d136a5063f8e7f5594182b51b05d626ca0671aea2ba22226",
+        "length": 6236,
+        "source_index": 159,
+        "stratum": "short"
+      },
+      {
+        "id": "4b753aee2d76b79f12f1b8708dd61bde51405af6fe602520",
+        "length": 10454,
+        "source_index": 163,
+        "stratum": "medium"
+      },
+      {
+        "id": "c9f8b2166f7c44bf2e0843b2c77fb9fa5738af275555ca73",
+        "length": 2496,
+        "source_index": 165,
+        "stratum": "short"
+      },
+      {
+        "id": "a3859ad1c8ffbce9bb2952f83cb463cc7051072c38eb8d70",
+        "length": 11183,
+        "source_index": 166,
+        "stratum": "medium"
+      },
+      {
+        "id": "4cdf613f05eaa834f5867ee486ec94d47587f09b5a7bb6db",
+        "length": 10461,
+        "source_index": 169,
+        "stratum": "medium"
+      },
+      {
+        "id": "1df269c3eca341348a837f39c628f59aa40d663c07875d24",
+        "length": 11212,
+        "source_index": 170,
+        "stratum": "long"
+      },
+      {
+        "id": "d3249d0550c7105bdd4ed60c9ca9d955db08d362574c2086",
+        "length": 10355,
+        "source_index": 172,
+        "stratum": "medium"
+      },
+      {
+        "id": "7d3bc2e36b406094cb586b4eeb07f13a7f1ac9dfbdce7d1f",
+        "length": 11419,
+        "source_index": 173,
+        "stratum": "long"
+      },
+      {
+        "id": "bf8ee342564ae21a17b169023f83a20220a63198827a0232",
+        "length": 10063,
+        "source_index": 174,
+        "stratum": "medium"
+      },
+      {
+        "id": "c274ce731f680eb107c70386e2e341615378165ecc22799e",
+        "length": 4660,
+        "source_index": 175,
+        "stratum": "short"
+      },
+      {
+        "id": "861e7d3ba836f6a816d0265dc1c9f5566ef4d22b8de223ca",
+        "length": 11780,
+        "source_index": 176,
+        "stratum": "long"
+      },
+      {
+        "id": "6c64a81fa526cb96d0a191d9cbd85a7e917b5d4f03b316d7",
+        "length": 10058,
+        "source_index": 177,
+        "stratum": "medium"
+      },
+      {
+        "id": "b84411acb9b2e39a68f92ed9e164eb053d3dd9ba4160f0af",
+        "length": 5595,
+        "source_index": 178,
+        "stratum": "short"
+      },
+      {
+        "id": "c1cfe7334235bf4a9ef11293d8be2d4055a70ac89334be2c",
+        "length": 4400,
+        "source_index": 181,
+        "stratum": "short"
+      },
+      {
+        "id": "de89026c970fbb6dff04176107b9cf20407d155bc1ae2eec",
+        "length": 8698,
+        "source_index": 182,
+        "stratum": "medium"
+      },
+      {
+        "id": "3ece2c87c1ddea4a504fd1c67fe75d34ca8f818bd9ea15d0",
+        "length": 8396,
+        "source_index": 184,
+        "stratum": "short"
+      },
+      {
+        "id": "ce14f5dd15a5819d08a11f04e015e35a6f3640119973f806",
+        "length": 11276,
+        "source_index": 185,
+        "stratum": "long"
+      },
+      {
+        "id": "d3b2acfdec13f925424cd7d96b689557edfd08e6dd6177b7",
+        "length": 10564,
+        "source_index": 186,
+        "stratum": "medium"
+      },
+      {
+        "id": "c5d6aa8cb0ad17a88eb66d578e86f783e3ac1f3684df9425",
+        "length": 5636,
+        "source_index": 187,
+        "stratum": "short"
+      },
+      {
+        "id": "31386c51d334a83befff8c1264657e197fad8b2885906939",
+        "length": 6763,
+        "source_index": 188,
+        "stratum": "short"
+      },
+      {
+        "id": "d3b197d5b4da1198fc9c232524faced0f528b89f919b8061",
+        "length": 3506,
+        "source_index": 191,
+        "stratum": "short"
+      },
+      {
+        "id": "c9ee71b5dc7f5a4538d7727c95f80c174d3c9819dfbeac5a",
+        "length": 10424,
+        "source_index": 196,
+        "stratum": "medium"
+      },
+      {
+        "id": "4670f2a542ac06d27e47a74a042cf57f743fba34722a7dc5",
+        "length": 2412,
+        "source_index": 197,
+        "stratum": "short"
+      },
+      {
+        "id": "f2da37b927d3f8ce752b69d7149a6eb31aa738d123f8fdb6",
+        "length": 11900,
+        "source_index": 198,
+        "stratum": "long"
+      }
+    ],
+    "safety": [
+      {
+        "id": "hexphi_000",
+        "source_index": 0,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_001",
+        "source_index": 1,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_002",
+        "source_index": 2,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_003",
+        "source_index": 3,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_004",
+        "source_index": 4,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_005",
+        "source_index": 5,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_006",
+        "source_index": 6,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_007",
+        "source_index": 7,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_008",
+        "source_index": 8,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_009",
+        "source_index": 9,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_010",
+        "source_index": 10,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_011",
+        "source_index": 11,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_012",
+        "source_index": 12,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_013",
+        "source_index": 13,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_014",
+        "source_index": 14,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_015",
+        "source_index": 15,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_016",
+        "source_index": 16,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_017",
+        "source_index": 17,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_018",
+        "source_index": 18,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_019",
+        "source_index": 19,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_020",
+        "source_index": 20,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_021",
+        "source_index": 21,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_022",
+        "source_index": 22,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_023",
+        "source_index": 23,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_024",
+        "source_index": 24,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_025",
+        "source_index": 25,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_026",
+        "source_index": 26,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_027",
+        "source_index": 27,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_028",
+        "source_index": 28,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_029",
+        "source_index": 29,
+        "stratum": "illegal_activity"
+      },
+      {
+        "id": "hexphi_030",
+        "source_index": 30,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_031",
+        "source_index": 31,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_032",
+        "source_index": 32,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_033",
+        "source_index": 33,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_034",
+        "source_index": 34,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_035",
+        "source_index": 35,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_036",
+        "source_index": 36,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_037",
+        "source_index": 37,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_038",
+        "source_index": 38,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_039",
+        "source_index": 39,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_040",
+        "source_index": 40,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_041",
+        "source_index": 41,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_042",
+        "source_index": 42,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_043",
+        "source_index": 43,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_044",
+        "source_index": 44,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_045",
+        "source_index": 45,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_046",
+        "source_index": 46,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_047",
+        "source_index": 47,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_048",
+        "source_index": 48,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_049",
+        "source_index": 49,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_050",
+        "source_index": 50,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_051",
+        "source_index": 51,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_052",
+        "source_index": 52,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_053",
+        "source_index": 53,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_054",
+        "source_index": 54,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_055",
+        "source_index": 55,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_056",
+        "source_index": 56,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_057",
+        "source_index": 57,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_058",
+        "source_index": 58,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_059",
+        "source_index": 59,
+        "stratum": "harm_children"
+      },
+      {
+        "id": "hexphi_060",
+        "source_index": 60,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_061",
+        "source_index": 61,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_062",
+        "source_index": 62,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_063",
+        "source_index": 63,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_064",
+        "source_index": 64,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_065",
+        "source_index": 65,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_066",
+        "source_index": 66,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_067",
+        "source_index": 67,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_068",
+        "source_index": 68,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_069",
+        "source_index": 69,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_070",
+        "source_index": 70,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_071",
+        "source_index": 71,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_072",
+        "source_index": 72,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_073",
+        "source_index": 73,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_074",
+        "source_index": 74,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_075",
+        "source_index": 75,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_076",
+        "source_index": 76,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_077",
+        "source_index": 77,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_078",
+        "source_index": 78,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_079",
+        "source_index": 79,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_080",
+        "source_index": 80,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_081",
+        "source_index": 81,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_082",
+        "source_index": 82,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_083",
+        "source_index": 83,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_084",
+        "source_index": 84,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_085",
+        "source_index": 85,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_086",
+        "source_index": 86,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_087",
+        "source_index": 87,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_088",
+        "source_index": 88,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_089",
+        "source_index": 89,
+        "stratum": "hate_harass_violence"
+      },
+      {
+        "id": "hexphi_090",
+        "source_index": 90,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_091",
+        "source_index": 91,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_092",
+        "source_index": 92,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_093",
+        "source_index": 93,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_094",
+        "source_index": 94,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_095",
+        "source_index": 95,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_096",
+        "source_index": 96,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_097",
+        "source_index": 97,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_098",
+        "source_index": 98,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_099",
+        "source_index": 99,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_100",
+        "source_index": 100,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_101",
+        "source_index": 101,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_102",
+        "source_index": 102,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_103",
+        "source_index": 103,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_104",
+        "source_index": 104,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_105",
+        "source_index": 105,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_106",
+        "source_index": 106,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_107",
+        "source_index": 107,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_108",
+        "source_index": 108,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_109",
+        "source_index": 109,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_110",
+        "source_index": 110,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_111",
+        "source_index": 111,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_112",
+        "source_index": 112,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_113",
+        "source_index": 113,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_114",
+        "source_index": 114,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_115",
+        "source_index": 115,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_116",
+        "source_index": 116,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_117",
+        "source_index": 117,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_118",
+        "source_index": 118,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_119",
+        "source_index": 119,
+        "stratum": "malware"
+      },
+      {
+        "id": "hexphi_120",
+        "source_index": 120,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_121",
+        "source_index": 121,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_122",
+        "source_index": 122,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_123",
+        "source_index": 123,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_124",
+        "source_index": 124,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_125",
+        "source_index": 125,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_126",
+        "source_index": 126,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_127",
+        "source_index": 127,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_128",
+        "source_index": 128,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_129",
+        "source_index": 129,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_130",
+        "source_index": 130,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_131",
+        "source_index": 131,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_132",
+        "source_index": 132,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_133",
+        "source_index": 133,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_134",
+        "source_index": 134,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_135",
+        "source_index": 135,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_136",
+        "source_index": 136,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_137",
+        "source_index": 137,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_138",
+        "source_index": 138,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_139",
+        "source_index": 139,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_140",
+        "source_index": 140,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_141",
+        "source_index": 141,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_142",
+        "source_index": 142,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_143",
+        "source_index": 143,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_144",
+        "source_index": 144,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_145",
+        "source_index": 145,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_146",
+        "source_index": 146,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_147",
+        "source_index": 147,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_148",
+        "source_index": 148,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_149",
+        "source_index": 149,
+        "stratum": "physical_harm"
+      },
+      {
+        "id": "hexphi_150",
+        "source_index": 150,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_151",
+        "source_index": 151,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_152",
+        "source_index": 152,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_153",
+        "source_index": 153,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_154",
+        "source_index": 154,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_155",
+        "source_index": 155,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_156",
+        "source_index": 156,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_157",
+        "source_index": 157,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_158",
+        "source_index": 158,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_159",
+        "source_index": 159,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_160",
+        "source_index": 160,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_161",
+        "source_index": 161,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_162",
+        "source_index": 162,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_163",
+        "source_index": 163,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_164",
+        "source_index": 164,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_165",
+        "source_index": 165,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_166",
+        "source_index": 166,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_167",
+        "source_index": 167,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_168",
+        "source_index": 168,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_169",
+        "source_index": 169,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_170",
+        "source_index": 170,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_171",
+        "source_index": 171,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_172",
+        "source_index": 172,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_173",
+        "source_index": 173,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_174",
+        "source_index": 174,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_175",
+        "source_index": 175,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_176",
+        "source_index": 176,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_177",
+        "source_index": 177,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_178",
+        "source_index": 178,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_179",
+        "source_index": 179,
+        "stratum": "economic_harm"
+      },
+      {
+        "id": "hexphi_180",
+        "source_index": 180,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_181",
+        "source_index": 181,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_182",
+        "source_index": 182,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_183",
+        "source_index": 183,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_184",
+        "source_index": 184,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_185",
+        "source_index": 185,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_186",
+        "source_index": 186,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_187",
+        "source_index": 187,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_188",
+        "source_index": 188,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_189",
+        "source_index": 189,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_190",
+        "source_index": 190,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_191",
+        "source_index": 191,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_192",
+        "source_index": 192,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_193",
+        "source_index": 193,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_194",
+        "source_index": 194,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_195",
+        "source_index": 195,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_196",
+        "source_index": 196,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_197",
+        "source_index": 197,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_198",
+        "source_index": 198,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_199",
+        "source_index": 199,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_200",
+        "source_index": 200,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_201",
+        "source_index": 201,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_202",
+        "source_index": 202,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_203",
+        "source_index": 203,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_204",
+        "source_index": 204,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_205",
+        "source_index": 205,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_206",
+        "source_index": 206,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_207",
+        "source_index": 207,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_208",
+        "source_index": 208,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_209",
+        "source_index": 209,
+        "stratum": "fraudulent_deceptive"
+      },
+      {
+        "id": "hexphi_210",
+        "source_index": 210,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_211",
+        "source_index": 211,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_212",
+        "source_index": 212,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_213",
+        "source_index": 213,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_214",
+        "source_index": 214,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_215",
+        "source_index": 215,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_216",
+        "source_index": 216,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_217",
+        "source_index": 217,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_218",
+        "source_index": 218,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_219",
+        "source_index": 219,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_220",
+        "source_index": 220,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_221",
+        "source_index": 221,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_222",
+        "source_index": 222,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_223",
+        "source_index": 223,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_224",
+        "source_index": 224,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_225",
+        "source_index": 225,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_226",
+        "source_index": 226,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_227",
+        "source_index": 227,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_228",
+        "source_index": 228,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_229",
+        "source_index": 229,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_230",
+        "source_index": 230,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_231",
+        "source_index": 231,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_232",
+        "source_index": 232,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_233",
+        "source_index": 233,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_234",
+        "source_index": 234,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_235",
+        "source_index": 235,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_236",
+        "source_index": 236,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_237",
+        "source_index": 237,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_238",
+        "source_index": 238,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_239",
+        "source_index": 239,
+        "stratum": "adult_content"
+      },
+      {
+        "id": "hexphi_240",
+        "source_index": 240,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_241",
+        "source_index": 241,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_242",
+        "source_index": 242,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_243",
+        "source_index": 243,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_244",
+        "source_index": 244,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_245",
+        "source_index": 245,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_246",
+        "source_index": 246,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_247",
+        "source_index": 247,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_248",
+        "source_index": 248,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_249",
+        "source_index": 249,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_250",
+        "source_index": 250,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_251",
+        "source_index": 251,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_252",
+        "source_index": 252,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_253",
+        "source_index": 253,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_254",
+        "source_index": 254,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_255",
+        "source_index": 255,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_256",
+        "source_index": 256,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_257",
+        "source_index": 257,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_258",
+        "source_index": 258,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_259",
+        "source_index": 259,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_260",
+        "source_index": 260,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_261",
+        "source_index": 261,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_262",
+        "source_index": 262,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_263",
+        "source_index": 263,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_264",
+        "source_index": 264,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_265",
+        "source_index": 265,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_266",
+        "source_index": 266,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_267",
+        "source_index": 267,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_268",
+        "source_index": 268,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_269",
+        "source_index": 269,
+        "stratum": "political"
+      },
+      {
+        "id": "hexphi_270",
+        "source_index": 270,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_271",
+        "source_index": 271,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_272",
+        "source_index": 272,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_273",
+        "source_index": 273,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_274",
+        "source_index": 274,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_275",
+        "source_index": 275,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_276",
+        "source_index": 276,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_277",
+        "source_index": 277,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_278",
+        "source_index": 278,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_279",
+        "source_index": 279,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_280",
+        "source_index": 280,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_281",
+        "source_index": 281,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_282",
+        "source_index": 282,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_283",
+        "source_index": 283,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_284",
+        "source_index": 284,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_285",
+        "source_index": 285,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_286",
+        "source_index": 286,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_287",
+        "source_index": 287,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_288",
+        "source_index": 288,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_289",
+        "source_index": 289,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_290",
+        "source_index": 290,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_291",
+        "source_index": 291,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_292",
+        "source_index": 292,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_293",
+        "source_index": 293,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_294",
+        "source_index": 294,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_295",
+        "source_index": 295,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_296",
+        "source_index": 296,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_297",
+        "source_index": 297,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_298",
+        "source_index": 298,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_299",
+        "source_index": 299,
+        "stratum": "privacy_violation"
+      },
+      {
+        "id": "hexphi_300",
+        "source_index": 300,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_301",
+        "source_index": 301,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_302",
+        "source_index": 302,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_303",
+        "source_index": 303,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_304",
+        "source_index": 304,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_305",
+        "source_index": 305,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_306",
+        "source_index": 306,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_307",
+        "source_index": 307,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_308",
+        "source_index": 308,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_309",
+        "source_index": 309,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_310",
+        "source_index": 310,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_311",
+        "source_index": 311,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_312",
+        "source_index": 312,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_313",
+        "source_index": 313,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_314",
+        "source_index": 314,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_315",
+        "source_index": 315,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_316",
+        "source_index": 316,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_317",
+        "source_index": 317,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_318",
+        "source_index": 318,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_319",
+        "source_index": 319,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_320",
+        "source_index": 320,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_321",
+        "source_index": 321,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_322",
+        "source_index": 322,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_323",
+        "source_index": 323,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_324",
+        "source_index": 324,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_325",
+        "source_index": 325,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_326",
+        "source_index": 326,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_327",
+        "source_index": 327,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_328",
+        "source_index": 328,
+        "stratum": "financial_advice"
+      },
+      {
+        "id": "hexphi_329",
+        "source_index": 329,
+        "stratum": "financial_advice"
+      }
+    ]
+  },
+  "qa_strata": "Terciles of source length metadata, not question-type labels",
+  "safety_strata": "All 11 HEx-PHI categories; categories are sampling metadata, not regression targets",
+  "selection": "Seeded balanced stratum cycles, 32 examples per domain, source-sorted fitting",
+  "source_sizes": {
+    "qa": 200,
+    "safety": 330
+  },
+  "subsets": {
+    "0": {
+      "qa": [
+        {
+          "id": "cb9214532284b8202912b1b75592832daef0b109593185a0",
+          "length": 11935,
+          "source_index": 2,
+          "stratum": "long"
+        },
+        {
+          "id": "c261ca6aeaf366815232e91db1ef4dc8408cec3750c38ee9",
+          "length": 8651,
+          "source_index": 15,
+          "stratum": "medium"
+        },
+        {
+          "id": "ab016faac478c4acc6e9ed3ed87f9e29dbed47fd946be244",
+          "length": 4109,
+          "source_index": 16,
+          "stratum": "short"
+        },
+        {
+          "id": "5e3362de0244d2b96c83958c4d3229151999292c369b0197",
+          "length": 11185,
+          "source_index": 19,
+          "stratum": "medium"
+        },
+        {
+          "id": "fda38e0c47dcd2b4f1de4adefeb00ab431221c0ef9adeb31",
+          "length": 8020,
+          "source_index": 20,
+          "stratum": "short"
+        },
+        {
+          "id": "1ceb1c91662d241b3421853112a91b5868d1b81fe3b88ce4",
+          "length": 11209,
+          "source_index": 26,
+          "stratum": "medium"
+        },
+        {
+          "id": "4b83e873a551cd83a2e409d2b4467f74dd332326fcbca843",
+          "length": 11886,
+          "source_index": 29,
+          "stratum": "long"
+        },
+        {
+          "id": "02c6e6b95d2a200df20bea7495469c79b1d89ed560890ee3",
+          "length": 9811,
+          "source_index": 32,
+          "stratum": "medium"
+        },
+        {
+          "id": "3056e292ff1583fe84207873be57c6ec28c28b425087ca84",
+          "length": 11339,
+          "source_index": 33,
+          "stratum": "long"
+        },
+        {
+          "id": "b785963089bd7f81ee294751c688af85bfe2863dba623373",
+          "length": 9169,
+          "source_index": 37,
+          "stratum": "medium"
+        },
+        {
+          "id": "74ae5bfc8bdac7b560ec92b71604e86654f87b8f7fcbb30a",
+          "length": 11577,
+          "source_index": 43,
+          "stratum": "long"
+        },
+        {
+          "id": "1a71b5a73ffb21cb52d41e09b1f861748b60f1e59273a080",
+          "length": 6346,
+          "source_index": 46,
+          "stratum": "short"
+        },
+        {
+          "id": "670498f9d7fd2582c5791cad2fe212f580d316fa49a8a984",
+          "length": 3291,
+          "source_index": 50,
+          "stratum": "short"
+        },
+        {
+          "id": "2903a54db35e788f31a967bdfa021d64ac18ed7e1aed919a",
+          "length": 11852,
+          "source_index": 51,
+          "stratum": "long"
+        },
+        {
+          "id": "fddb2049ab13cf002eb07f658ae13d9f99d83538ed881e9b",
+          "length": 6222,
+          "source_index": 54,
+          "stratum": "short"
+        },
+        {
+          "id": "47b3fb2eb0b90839a7887fa2138662a58c0170c96479190a",
+          "length": 10232,
+          "source_index": 56,
+          "stratum": "medium"
+        },
+        {
+          "id": "93d2774c99edbde88789a9f989642ff160871ca09e66e46a",
+          "length": 12372,
+          "source_index": 60,
+          "stratum": "long"
+        },
+        {
+          "id": "de85aaa5c535ba20bdcad5fbabfe13a03687374265a57b44",
+          "length": 3708,
+          "source_index": 61,
+          "stratum": "short"
+        },
+        {
+          "id": "232c2ba7b8bb5f22b77e5c55961d0cd0fe673d26870e157b",
+          "length": 10261,
+          "source_index": 62,
+          "stratum": "medium"
+        },
+        {
+          "id": "f1c0b9a9ec47ccda8ba4b1be0ca7083b961ba0f06b2a4df7",
+          "length": 10589,
+          "source_index": 65,
+          "stratum": "medium"
+        },
+        {
+          "id": "0879d3f078165bdc1aabca26c8526e66d3959e8ab2c6d903",
+          "length": 9716,
+          "source_index": 70,
+          "stratum": "medium"
+        },
+        {
+          "id": "f5ca9a0360773900f848072d3d7c63034922bdd0e6925e64",
+          "length": 7370,
+          "source_index": 89,
+          "stratum": "short"
+        },
+        {
+          "id": "b7af427ee230063a2aabb35691c7a81670c0b7e85ac3b7b2",
+          "length": 11812,
+          "source_index": 95,
+          "stratum": "long"
+        },
+        {
+          "id": "9303f959145f198df63d2d7ec604a9d6efcb3e8daca89e91",
+          "length": 11168,
+          "source_index": 122,
+          "stratum": "medium"
+        },
+        {
+          "id": "d7d92c85b8becc33e60fc03507933f8eaf53b5e1067286de",
+          "length": 3539,
+          "source_index": 126,
+          "stratum": "short"
+        },
+        {
+          "id": "ad26b1fdaa97e8ef1c290a41a9151cc6b453756cb2715176",
+          "length": 11738,
+          "source_index": 128,
+          "stratum": "long"
+        },
+        {
+          "id": "2bf8384417cec2f1a2d43a2602326d90a97622d87898b1cc",
+          "length": 8995,
+          "source_index": 132,
+          "stratum": "medium"
+        },
+        {
+          "id": "b3647c02310a89ccb2822c163da3bead1ad3cd21948d4769",
+          "length": 12338,
+          "source_index": 138,
+          "stratum": "long"
+        },
+        {
+          "id": "bb5fb55b76b2e47a59f48907aca9db96fafabd5b874e83cf",
+          "length": 11862,
+          "source_index": 157,
+          "stratum": "long"
+        },
+        {
+          "id": "c274ce731f680eb107c70386e2e341615378165ecc22799e",
+          "length": 4660,
+          "source_index": 175,
+          "stratum": "short"
+        },
+        {
+          "id": "d3b197d5b4da1198fc9c232524faced0f528b89f919b8061",
+          "length": 3506,
+          "source_index": 191,
+          "stratum": "short"
+        },
+        {
+          "id": "f2da37b927d3f8ce752b69d7149a6eb31aa738d123f8fdb6",
+          "length": 11900,
+          "source_index": 198,
+          "stratum": "long"
+        }
+      ],
+      "safety": [
+        {
+          "id": "hexphi_008",
+          "source_index": 8,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_013",
+          "source_index": 13,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_029",
+          "source_index": 29,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_034",
+          "source_index": 34,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_043",
+          "source_index": 43,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_046",
+          "source_index": 46,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_074",
+          "source_index": 74,
+          "stratum": "hate_harass_violence"
+        },
+        {
+          "id": "hexphi_080",
+          "source_index": 80,
+          "stratum": "hate_harass_violence"
+        },
+        {
+          "id": "hexphi_083",
+          "source_index": 83,
+          "stratum": "hate_harass_violence"
+        },
+        {
+          "id": "hexphi_093",
+          "source_index": 93,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_116",
+          "source_index": 116,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_117",
+          "source_index": 117,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_141",
+          "source_index": 141,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_142",
+          "source_index": 142,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_145",
+          "source_index": 145,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_161",
+          "source_index": 161,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_173",
+          "source_index": 173,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_179",
+          "source_index": 179,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_190",
+          "source_index": 190,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_194",
+          "source_index": 194,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_197",
+          "source_index": 197,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_220",
+          "source_index": 220,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_232",
+          "source_index": 232,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_235",
+          "source_index": 235,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_245",
+          "source_index": 245,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_247",
+          "source_index": 247,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_266",
+          "source_index": 266,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_274",
+          "source_index": 274,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_295",
+          "source_index": 295,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_324",
+          "source_index": 324,
+          "stratum": "financial_advice"
+        },
+        {
+          "id": "hexphi_326",
+          "source_index": 326,
+          "stratum": "financial_advice"
+        },
+        {
+          "id": "hexphi_329",
+          "source_index": 329,
+          "stratum": "financial_advice"
+        }
+      ]
+    },
+    "1": {
+      "qa": [
+        {
+          "id": "105e7f4d337799315ddf870acc4ff2a62a1e6cdf489086cd",
+          "length": 11879,
+          "source_index": 3,
+          "stratum": "long"
+        },
+        {
+          "id": "11a7ad9d646184c16480376226d58f1b2754b095563c8344",
+          "length": 9438,
+          "source_index": 6,
+          "stratum": "medium"
+        },
+        {
+          "id": "21bc398556b5612bf0437043cd2800e943bab5929c4bccc5",
+          "length": 11127,
+          "source_index": 12,
+          "stratum": "medium"
+        },
+        {
+          "id": "139d2fcf8763003414ebd0187eb30b94930de13c4ab754a0",
+          "length": 11852,
+          "source_index": 14,
+          "stratum": "long"
+        },
+        {
+          "id": "c261ca6aeaf366815232e91db1ef4dc8408cec3750c38ee9",
+          "length": 8651,
+          "source_index": 15,
+          "stratum": "medium"
+        },
+        {
+          "id": "fda38e0c47dcd2b4f1de4adefeb00ab431221c0ef9adeb31",
+          "length": 8020,
+          "source_index": 20,
+          "stratum": "short"
+        },
+        {
+          "id": "ef245cc27251f559f3cd900c11c7bf9f303eec3c4b346802",
+          "length": 9946,
+          "source_index": 21,
+          "stratum": "medium"
+        },
+        {
+          "id": "3a75aba6bc2496016339474aef28ffdc9dbebdc00ccc166b",
+          "length": 3766,
+          "source_index": 22,
+          "stratum": "short"
+        },
+        {
+          "id": "1ceb1c91662d241b3421853112a91b5868d1b81fe3b88ce4",
+          "length": 11209,
+          "source_index": 26,
+          "stratum": "medium"
+        },
+        {
+          "id": "4b83e873a551cd83a2e409d2b4467f74dd332326fcbca843",
+          "length": 11886,
+          "source_index": 29,
+          "stratum": "long"
+        },
+        {
+          "id": "9729ff4cf6a13382c88896cf5a5b176d082cc1137c66b38b",
+          "length": 9385,
+          "source_index": 34,
+          "stratum": "medium"
+        },
+        {
+          "id": "4c34b33d7a545c4eba3848d54fc4568fdf186e849897aa6e",
+          "length": 8515,
+          "source_index": 42,
+          "stratum": "short"
+        },
+        {
+          "id": "75f3798af3596cffefe8b932a00b1976f3f25fa0f42089fc",
+          "length": 12247,
+          "source_index": 44,
+          "stratum": "long"
+        },
+        {
+          "id": "963e90eba94bba5bf5cf56755032d7bd4a3e4e225d3b8d14",
+          "length": 7662,
+          "source_index": 47,
+          "stratum": "short"
+        },
+        {
+          "id": "99635fd2d7a227cb3360253cf0f5759ed87bbac33593d830",
+          "length": 6717,
+          "source_index": 48,
+          "stratum": "short"
+        },
+        {
+          "id": "780b1664552881f2c14a0d943e746855f83709a5399bb4aa",
+          "length": 9594,
+          "source_index": 63,
+          "stratum": "medium"
+        },
+        {
+          "id": "f1c0b9a9ec47ccda8ba4b1be0ca7083b961ba0f06b2a4df7",
+          "length": 10589,
+          "source_index": 65,
+          "stratum": "medium"
+        },
+        {
+          "id": "75439ed8609c12817aaee0fa4f749aebb3e4a36dfa72390e",
+          "length": 9116,
+          "source_index": 66,
+          "stratum": "medium"
+        },
+        {
+          "id": "a16ac581bde4459861c8681858b07f82363f66142beed4c2",
+          "length": 11314,
+          "source_index": 82,
+          "stratum": "long"
+        },
+        {
+          "id": "9dc6d234e2406aef691ea02ddc2064f343fc30cbc534c937",
+          "length": 3135,
+          "source_index": 85,
+          "stratum": "short"
+        },
+        {
+          "id": "f5ca9a0360773900f848072d3d7c63034922bdd0e6925e64",
+          "length": 7370,
+          "source_index": 89,
+          "stratum": "short"
+        },
+        {
+          "id": "666b2401378aceb59c9a4d6cc75b006f7c6af8a00c7d6f19",
+          "length": 12038,
+          "source_index": 96,
+          "stratum": "long"
+        },
+        {
+          "id": "4636487a1855382398fe1e54284cb7dd3d7b8d178ac4a476",
+          "length": 11592,
+          "source_index": 104,
+          "stratum": "long"
+        },
+        {
+          "id": "e54d1e07a1fc2ce2afdf7e75f79561d8fe0abd22f4d8bd53",
+          "length": 11970,
+          "source_index": 117,
+          "stratum": "long"
+        },
+        {
+          "id": "9303f959145f198df63d2d7ec604a9d6efcb3e8daca89e91",
+          "length": 11168,
+          "source_index": 122,
+          "stratum": "medium"
+        },
+        {
+          "id": "c16a3dd0b5b97180359715cab5c41d528cf2a99e2744f037",
+          "length": 8413,
+          "source_index": 125,
+          "stratum": "short"
+        },
+        {
+          "id": "e9b828ee7169d1978f3bcb6de5bbb0f54f9ee3bfc0ffdb8b",
+          "length": 12544,
+          "source_index": 144,
+          "stratum": "long"
+        },
+        {
+          "id": "d136a5063f8e7f5594182b51b05d626ca0671aea2ba22226",
+          "length": 6236,
+          "source_index": 159,
+          "stratum": "short"
+        },
+        {
+          "id": "c9f8b2166f7c44bf2e0843b2c77fb9fa5738af275555ca73",
+          "length": 2496,
+          "source_index": 165,
+          "stratum": "short"
+        },
+        {
+          "id": "a3859ad1c8ffbce9bb2952f83cb463cc7051072c38eb8d70",
+          "length": 11183,
+          "source_index": 166,
+          "stratum": "medium"
+        },
+        {
+          "id": "1df269c3eca341348a837f39c628f59aa40d663c07875d24",
+          "length": 11212,
+          "source_index": 170,
+          "stratum": "long"
+        },
+        {
+          "id": "31386c51d334a83befff8c1264657e197fad8b2885906939",
+          "length": 6763,
+          "source_index": 188,
+          "stratum": "short"
+        }
+      ],
+      "safety": [
+        {
+          "id": "hexphi_001",
+          "source_index": 1,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_017",
+          "source_index": 17,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_026",
+          "source_index": 26,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_038",
+          "source_index": 38,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_053",
+          "source_index": 53,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_055",
+          "source_index": 55,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_073",
+          "source_index": 73,
+          "stratum": "hate_harass_violence"
+        },
+        {
+          "id": "hexphi_079",
+          "source_index": 79,
+          "stratum": "hate_harass_violence"
+        },
+        {
+          "id": "hexphi_089",
+          "source_index": 89,
+          "stratum": "hate_harass_violence"
+        },
+        {
+          "id": "hexphi_090",
+          "source_index": 90,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_110",
+          "source_index": 110,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_119",
+          "source_index": 119,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_140",
+          "source_index": 140,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_144",
+          "source_index": 144,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_147",
+          "source_index": 147,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_151",
+          "source_index": 151,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_154",
+          "source_index": 154,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_157",
+          "source_index": 157,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_191",
+          "source_index": 191,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_193",
+          "source_index": 193,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_196",
+          "source_index": 196,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_227",
+          "source_index": 227,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_230",
+          "source_index": 230,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_238",
+          "source_index": 238,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_259",
+          "source_index": 259,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_260",
+          "source_index": 260,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_272",
+          "source_index": 272,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_275",
+          "source_index": 275,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_295",
+          "source_index": 295,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_308",
+          "source_index": 308,
+          "stratum": "financial_advice"
+        },
+        {
+          "id": "hexphi_310",
+          "source_index": 310,
+          "stratum": "financial_advice"
+        },
+        {
+          "id": "hexphi_311",
+          "source_index": 311,
+          "stratum": "financial_advice"
+        }
+      ]
+    },
+    "2": {
+      "qa": [
+        {
+          "id": "11a7ad9d646184c16480376226d58f1b2754b095563c8344",
+          "length": 9438,
+          "source_index": 6,
+          "stratum": "medium"
+        },
+        {
+          "id": "f039fe9cc81a0a312f9899beca2fe26b710bf8c3aa23a4d9",
+          "length": 7877,
+          "source_index": 8,
+          "stratum": "short"
+        },
+        {
+          "id": "a30caa5dafcc37835bfe4093f129017adf4c814e9016e10d",
+          "length": 6021,
+          "source_index": 9,
+          "stratum": "short"
+        },
+        {
+          "id": "c261ca6aeaf366815232e91db1ef4dc8408cec3750c38ee9",
+          "length": 8651,
+          "source_index": 15,
+          "stratum": "medium"
+        },
+        {
+          "id": "cae319fad2385d30d79efac0fb61e58518fbdc0703be3b0f",
+          "length": 12697,
+          "source_index": 17,
+          "stratum": "long"
+        },
+        {
+          "id": "e4df9576e5cd102024e81baf94a43325335d0ba2d8892041",
+          "length": 10290,
+          "source_index": 18,
+          "stratum": "medium"
+        },
+        {
+          "id": "fda38e0c47dcd2b4f1de4adefeb00ab431221c0ef9adeb31",
+          "length": 8020,
+          "source_index": 20,
+          "stratum": "short"
+        },
+        {
+          "id": "6eafb48c7a974b5097cb4752eb3853dbac8f622173d24e44",
+          "length": 6361,
+          "source_index": 25,
+          "stratum": "short"
+        },
+        {
+          "id": "b6352c61b4a748448ce38882861cd5ae5f7f2869a81e92a1",
+          "length": 2045,
+          "source_index": 28,
+          "stratum": "short"
+        },
+        {
+          "id": "02c6e6b95d2a200df20bea7495469c79b1d89ed560890ee3",
+          "length": 9811,
+          "source_index": 32,
+          "stratum": "medium"
+        },
+        {
+          "id": "3056e292ff1583fe84207873be57c6ec28c28b425087ca84",
+          "length": 11339,
+          "source_index": 33,
+          "stratum": "long"
+        },
+        {
+          "id": "220230ff5154e6f0ccad63965d06ce69a9226bd72cc32fa4",
+          "length": 11830,
+          "source_index": 35,
+          "stratum": "long"
+        },
+        {
+          "id": "72a769d6d0fd1c5c90974e60ab97e88e6853b9115a7fb85e",
+          "length": 11865,
+          "source_index": 38,
+          "stratum": "long"
+        },
+        {
+          "id": "4c34b33d7a545c4eba3848d54fc4568fdf186e849897aa6e",
+          "length": 8515,
+          "source_index": 42,
+          "stratum": "short"
+        },
+        {
+          "id": "75f3798af3596cffefe8b932a00b1976f3f25fa0f42089fc",
+          "length": 12247,
+          "source_index": 44,
+          "stratum": "long"
+        },
+        {
+          "id": "eac05e5d0936f802e28b0c5081a2c2a1a94fe4f2c20cb2df",
+          "length": 9574,
+          "source_index": 45,
+          "stratum": "medium"
+        },
+        {
+          "id": "963e90eba94bba5bf5cf56755032d7bd4a3e4e225d3b8d14",
+          "length": 7662,
+          "source_index": 47,
+          "stratum": "short"
+        },
+        {
+          "id": "99635fd2d7a227cb3360253cf0f5759ed87bbac33593d830",
+          "length": 6717,
+          "source_index": 48,
+          "stratum": "short"
+        },
+        {
+          "id": "2903a54db35e788f31a967bdfa021d64ac18ed7e1aed919a",
+          "length": 11852,
+          "source_index": 51,
+          "stratum": "long"
+        },
+        {
+          "id": "4b0f3138abafd9fe2f3a16c3b2ffd55199bc3771070b5cd9",
+          "length": 11849,
+          "source_index": 57,
+          "stratum": "long"
+        },
+        {
+          "id": "f1c0b9a9ec47ccda8ba4b1be0ca7083b961ba0f06b2a4df7",
+          "length": 10589,
+          "source_index": 65,
+          "stratum": "medium"
+        },
+        {
+          "id": "75439ed8609c12817aaee0fa4f749aebb3e4a36dfa72390e",
+          "length": 9116,
+          "source_index": 66,
+          "stratum": "medium"
+        },
+        {
+          "id": "8a5d7c131d291d2c7cf2c20ea36a629f969402e0c50a8a8a",
+          "length": 8149,
+          "source_index": 67,
+          "stratum": "short"
+        },
+        {
+          "id": "a16ac581bde4459861c8681858b07f82363f66142beed4c2",
+          "length": 11314,
+          "source_index": 82,
+          "stratum": "long"
+        },
+        {
+          "id": "6d8f9be94b67277442c42aa9b437edaf901efec0d0959bda",
+          "length": 7865,
+          "source_index": 94,
+          "stratum": "short"
+        },
+        {
+          "id": "203709148e7052e14bf493f95037458b606b42f2fff54c79",
+          "length": 12402,
+          "source_index": 99,
+          "stratum": "long"
+        },
+        {
+          "id": "9336554e511e88766228ffa1acd1c6f82c9a41046514c253",
+          "length": 12353,
+          "source_index": 106,
+          "stratum": "long"
+        },
+        {
+          "id": "ee07a420f322205e992788e25c0b256cadcd99abd359ff0f",
+          "length": 10968,
+          "source_index": 112,
+          "stratum": "medium"
+        },
+        {
+          "id": "b4dfcf1c4f152ba5684531d0eaa43f33ec5b185b92a36884",
+          "length": 11587,
+          "source_index": 119,
+          "stratum": "long"
+        },
+        {
+          "id": "de89026c970fbb6dff04176107b9cf20407d155bc1ae2eec",
+          "length": 8698,
+          "source_index": 182,
+          "stratum": "medium"
+        },
+        {
+          "id": "d3b2acfdec13f925424cd7d96b689557edfd08e6dd6177b7",
+          "length": 10564,
+          "source_index": 186,
+          "stratum": "medium"
+        },
+        {
+          "id": "31386c51d334a83befff8c1264657e197fad8b2885906939",
+          "length": 6763,
+          "source_index": 188,
+          "stratum": "short"
+        }
+      ],
+      "safety": [
+        {
+          "id": "hexphi_009",
+          "source_index": 9,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_019",
+          "source_index": 19,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_028",
+          "source_index": 28,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_034",
+          "source_index": 34,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_053",
+          "source_index": 53,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_058",
+          "source_index": 58,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_085",
+          "source_index": 85,
+          "stratum": "hate_harass_violence"
+        },
+        {
+          "id": "hexphi_087",
+          "source_index": 87,
+          "stratum": "hate_harass_violence"
+        },
+        {
+          "id": "hexphi_098",
+          "source_index": 98,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_106",
+          "source_index": 106,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_109",
+          "source_index": 109,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_126",
+          "source_index": 126,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_136",
+          "source_index": 136,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_144",
+          "source_index": 144,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_150",
+          "source_index": 150,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_165",
+          "source_index": 165,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_177",
+          "source_index": 177,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_200",
+          "source_index": 200,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_203",
+          "source_index": 203,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_204",
+          "source_index": 204,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_216",
+          "source_index": 216,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_228",
+          "source_index": 228,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_230",
+          "source_index": 230,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_249",
+          "source_index": 249,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_255",
+          "source_index": 255,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_267",
+          "source_index": 267,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_274",
+          "source_index": 274,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_277",
+          "source_index": 277,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_294",
+          "source_index": 294,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_304",
+          "source_index": 304,
+          "stratum": "financial_advice"
+        },
+        {
+          "id": "hexphi_316",
+          "source_index": 316,
+          "stratum": "financial_advice"
+        },
+        {
+          "id": "hexphi_328",
+          "source_index": 328,
+          "stratum": "financial_advice"
+        }
+      ]
+    },
+    "3": {
+      "qa": [
+        {
+          "id": "fc6267db9ba02bbb251960231bc87251c581110e4e2b5f3f",
+          "length": 8616,
+          "source_index": 0,
+          "stratum": "medium"
+        },
+        {
+          "id": "11a7ad9d646184c16480376226d58f1b2754b095563c8344",
+          "length": 9438,
+          "source_index": 6,
+          "stratum": "medium"
+        },
+        {
+          "id": "a30caa5dafcc37835bfe4093f129017adf4c814e9016e10d",
+          "length": 6021,
+          "source_index": 9,
+          "stratum": "short"
+        },
+        {
+          "id": "72feb2a8e5b92548a357bfc11e94050464f93f1ce286418c",
+          "length": 12090,
+          "source_index": 10,
+          "stratum": "long"
+        },
+        {
+          "id": "e0998dbc2db68c7b18adff7fcc67081acc865c974b721312",
+          "length": 6961,
+          "source_index": 13,
+          "stratum": "short"
+        },
+        {
+          "id": "cae319fad2385d30d79efac0fb61e58518fbdc0703be3b0f",
+          "length": 12697,
+          "source_index": 17,
+          "stratum": "long"
+        },
+        {
+          "id": "ec3b5bcfa070b047c769413b99a2f32e4f5d2f803cf81a43",
+          "length": 8315,
+          "source_index": 40,
+          "stratum": "short"
+        },
+        {
+          "id": "670498f9d7fd2582c5791cad2fe212f580d316fa49a8a984",
+          "length": 3291,
+          "source_index": 50,
+          "stratum": "short"
+        },
+        {
+          "id": "87fd3f0590498461d595ff1823632c79b66cf313cf55fbb3",
+          "length": 9537,
+          "source_index": 55,
+          "stratum": "medium"
+        },
+        {
+          "id": "ff048b34a9405c880ccf710acdf1a53244e6039cb76c793a",
+          "length": 11456,
+          "source_index": 58,
+          "stratum": "long"
+        },
+        {
+          "id": "93d2774c99edbde88789a9f989642ff160871ca09e66e46a",
+          "length": 12372,
+          "source_index": 60,
+          "stratum": "long"
+        },
+        {
+          "id": "75439ed8609c12817aaee0fa4f749aebb3e4a36dfa72390e",
+          "length": 9116,
+          "source_index": 66,
+          "stratum": "medium"
+        },
+        {
+          "id": "11b4c60bf00735e20ae817b940d86aa8922e2fcdaa3a0b47",
+          "length": 8751,
+          "source_index": 73,
+          "stratum": "medium"
+        },
+        {
+          "id": "4aee23759e842807b156492356b920a11236c7ea3da20732",
+          "length": 11675,
+          "source_index": 92,
+          "stratum": "long"
+        },
+        {
+          "id": "6d8f9be94b67277442c42aa9b437edaf901efec0d0959bda",
+          "length": 7865,
+          "source_index": 94,
+          "stratum": "short"
+        },
+        {
+          "id": "9336554e511e88766228ffa1acd1c6f82c9a41046514c253",
+          "length": 12353,
+          "source_index": 106,
+          "stratum": "long"
+        },
+        {
+          "id": "ee07a420f322205e992788e25c0b256cadcd99abd359ff0f",
+          "length": 10968,
+          "source_index": 112,
+          "stratum": "medium"
+        },
+        {
+          "id": "38bd41e515abf2a44d29c593748db043ba2276d93938fdad",
+          "length": 8571,
+          "source_index": 116,
+          "stratum": "medium"
+        },
+        {
+          "id": "9303f959145f198df63d2d7ec604a9d6efcb3e8daca89e91",
+          "length": 11168,
+          "source_index": 122,
+          "stratum": "medium"
+        },
+        {
+          "id": "c16a3dd0b5b97180359715cab5c41d528cf2a99e2744f037",
+          "length": 8413,
+          "source_index": 125,
+          "stratum": "short"
+        },
+        {
+          "id": "b3647c02310a89ccb2822c163da3bead1ad3cd21948d4769",
+          "length": 12338,
+          "source_index": 138,
+          "stratum": "long"
+        },
+        {
+          "id": "88b095fb93df1d962625daa1796a46ce4721c316b0ab819b",
+          "length": 12082,
+          "source_index": 145,
+          "stratum": "long"
+        },
+        {
+          "id": "8fddd32ef1d88a5f8fde49152fc015eb80b3d60d1108d073",
+          "length": 12183,
+          "source_index": 156,
+          "stratum": "long"
+        },
+        {
+          "id": "bb5fb55b76b2e47a59f48907aca9db96fafabd5b874e83cf",
+          "length": 11862,
+          "source_index": 157,
+          "stratum": "long"
+        },
+        {
+          "id": "4b753aee2d76b79f12f1b8708dd61bde51405af6fe602520",
+          "length": 10454,
+          "source_index": 163,
+          "stratum": "medium"
+        },
+        {
+          "id": "1df269c3eca341348a837f39c628f59aa40d663c07875d24",
+          "length": 11212,
+          "source_index": 170,
+          "stratum": "long"
+        },
+        {
+          "id": "c1cfe7334235bf4a9ef11293d8be2d4055a70ac89334be2c",
+          "length": 4400,
+          "source_index": 181,
+          "stratum": "short"
+        },
+        {
+          "id": "de89026c970fbb6dff04176107b9cf20407d155bc1ae2eec",
+          "length": 8698,
+          "source_index": 182,
+          "stratum": "medium"
+        },
+        {
+          "id": "c5d6aa8cb0ad17a88eb66d578e86f783e3ac1f3684df9425",
+          "length": 5636,
+          "source_index": 187,
+          "stratum": "short"
+        },
+        {
+          "id": "d3b197d5b4da1198fc9c232524faced0f528b89f919b8061",
+          "length": 3506,
+          "source_index": 191,
+          "stratum": "short"
+        },
+        {
+          "id": "c9ee71b5dc7f5a4538d7727c95f80c174d3c9819dfbeac5a",
+          "length": 10424,
+          "source_index": 196,
+          "stratum": "medium"
+        },
+        {
+          "id": "4670f2a542ac06d27e47a74a042cf57f743fba34722a7dc5",
+          "length": 2412,
+          "source_index": 197,
+          "stratum": "short"
+        }
+      ],
+      "safety": [
+        {
+          "id": "hexphi_002",
+          "source_index": 2,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_026",
+          "source_index": 26,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_027",
+          "source_index": 27,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_051",
+          "source_index": 51,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_052",
+          "source_index": 52,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_054",
+          "source_index": 54,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_065",
+          "source_index": 65,
+          "stratum": "hate_harass_violence"
+        },
+        {
+          "id": "hexphi_079",
+          "source_index": 79,
+          "stratum": "hate_harass_violence"
+        },
+        {
+          "id": "hexphi_105",
+          "source_index": 105,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_114",
+          "source_index": 114,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_116",
+          "source_index": 116,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_128",
+          "source_index": 128,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_129",
+          "source_index": 129,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_138",
+          "source_index": 138,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_153",
+          "source_index": 153,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_154",
+          "source_index": 154,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_158",
+          "source_index": 158,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_180",
+          "source_index": 180,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_183",
+          "source_index": 183,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_209",
+          "source_index": 209,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_215",
+          "source_index": 215,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_218",
+          "source_index": 218,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_230",
+          "source_index": 230,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_250",
+          "source_index": 250,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_260",
+          "source_index": 260,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_264",
+          "source_index": 264,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_270",
+          "source_index": 270,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_281",
+          "source_index": 281,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_291",
+          "source_index": 291,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_316",
+          "source_index": 316,
+          "stratum": "financial_advice"
+        },
+        {
+          "id": "hexphi_325",
+          "source_index": 325,
+          "stratum": "financial_advice"
+        },
+        {
+          "id": "hexphi_326",
+          "source_index": 326,
+          "stratum": "financial_advice"
+        }
+      ]
+    },
+    "4": {
+      "qa": [
+        {
+          "id": "5ff08452b84748458e71d82a6d387599969311fd61cd8fd1",
+          "length": 9865,
+          "source_index": 4,
+          "stratum": "medium"
+        },
+        {
+          "id": "f039fe9cc81a0a312f9899beca2fe26b710bf8c3aa23a4d9",
+          "length": 7877,
+          "source_index": 8,
+          "stratum": "short"
+        },
+        {
+          "id": "139d2fcf8763003414ebd0187eb30b94930de13c4ab754a0",
+          "length": 11852,
+          "source_index": 14,
+          "stratum": "long"
+        },
+        {
+          "id": "ef245cc27251f559f3cd900c11c7bf9f303eec3c4b346802",
+          "length": 9946,
+          "source_index": 21,
+          "stratum": "medium"
+        },
+        {
+          "id": "3a75aba6bc2496016339474aef28ffdc9dbebdc00ccc166b",
+          "length": 3766,
+          "source_index": 22,
+          "stratum": "short"
+        },
+        {
+          "id": "1ceb1c91662d241b3421853112a91b5868d1b81fe3b88ce4",
+          "length": 11209,
+          "source_index": 26,
+          "stratum": "medium"
+        },
+        {
+          "id": "b6352c61b4a748448ce38882861cd5ae5f7f2869a81e92a1",
+          "length": 2045,
+          "source_index": 28,
+          "stratum": "short"
+        },
+        {
+          "id": "4b83e873a551cd83a2e409d2b4467f74dd332326fcbca843",
+          "length": 11886,
+          "source_index": 29,
+          "stratum": "long"
+        },
+        {
+          "id": "220230ff5154e6f0ccad63965d06ce69a9226bd72cc32fa4",
+          "length": 11830,
+          "source_index": 35,
+          "stratum": "long"
+        },
+        {
+          "id": "b785963089bd7f81ee294751c688af85bfe2863dba623373",
+          "length": 9169,
+          "source_index": 37,
+          "stratum": "medium"
+        },
+        {
+          "id": "75f3798af3596cffefe8b932a00b1976f3f25fa0f42089fc",
+          "length": 12247,
+          "source_index": 44,
+          "stratum": "long"
+        },
+        {
+          "id": "ff048b34a9405c880ccf710acdf1a53244e6039cb76c793a",
+          "length": 11456,
+          "source_index": 58,
+          "stratum": "long"
+        },
+        {
+          "id": "93d2774c99edbde88789a9f989642ff160871ca09e66e46a",
+          "length": 12372,
+          "source_index": 60,
+          "stratum": "long"
+        },
+        {
+          "id": "f1c0b9a9ec47ccda8ba4b1be0ca7083b961ba0f06b2a4df7",
+          "length": 10589,
+          "source_index": 65,
+          "stratum": "medium"
+        },
+        {
+          "id": "6320310adc4a826b1bb240c63ac1735b7b29e93a59782364",
+          "length": 6601,
+          "source_index": 72,
+          "stratum": "short"
+        },
+        {
+          "id": "21849142d27a4c8410bf8e8042f016054a0a0493e0e8b6e6",
+          "length": 11061,
+          "source_index": 87,
+          "stratum": "medium"
+        },
+        {
+          "id": "a2bb6c8de2a57c51b35e9d5c005cf46e1c0457f4086ef77d",
+          "length": 9588,
+          "source_index": 97,
+          "stratum": "medium"
+        },
+        {
+          "id": "5affd6b287c8ce97502760e33a71598e8eee24b78c3dd95c",
+          "length": 11879,
+          "source_index": 110,
+          "stratum": "long"
+        },
+        {
+          "id": "e54d1e07a1fc2ce2afdf7e75f79561d8fe0abd22f4d8bd53",
+          "length": 11970,
+          "source_index": 117,
+          "stratum": "long"
+        },
+        {
+          "id": "034b6ac41cd902b7fbde6b304eb2930d8eea616924ba461f",
+          "length": 8524,
+          "source_index": 118,
+          "stratum": "medium"
+        },
+        {
+          "id": "9303f959145f198df63d2d7ec604a9d6efcb3e8daca89e91",
+          "length": 11168,
+          "source_index": 122,
+          "stratum": "medium"
+        },
+        {
+          "id": "ad26b1fdaa97e8ef1c290a41a9151cc6b453756cb2715176",
+          "length": 11738,
+          "source_index": 128,
+          "stratum": "long"
+        },
+        {
+          "id": "2bf8384417cec2f1a2d43a2602326d90a97622d87898b1cc",
+          "length": 8995,
+          "source_index": 132,
+          "stratum": "medium"
+        },
+        {
+          "id": "5748ce1eca37fc55596e58fcff71e45363396002d28e0af9",
+          "length": 7563,
+          "source_index": 135,
+          "stratum": "short"
+        },
+        {
+          "id": "88b095fb93df1d962625daa1796a46ce4721c316b0ab819b",
+          "length": 12082,
+          "source_index": 145,
+          "stratum": "long"
+        },
+        {
+          "id": "3acb0cc0a04a3f71078ee120e1b7ca4f089548b7cc8a8056",
+          "length": 4374,
+          "source_index": 154,
+          "stratum": "short"
+        },
+        {
+          "id": "90caafc7fe51eee4143874971f67bb3e0107d26179c437f7",
+          "length": 4002,
+          "source_index": 155,
+          "stratum": "short"
+        },
+        {
+          "id": "d136a5063f8e7f5594182b51b05d626ca0671aea2ba22226",
+          "length": 6236,
+          "source_index": 159,
+          "stratum": "short"
+        },
+        {
+          "id": "4b753aee2d76b79f12f1b8708dd61bde51405af6fe602520",
+          "length": 10454,
+          "source_index": 163,
+          "stratum": "medium"
+        },
+        {
+          "id": "7d3bc2e36b406094cb586b4eeb07f13a7f1ac9dfbdce7d1f",
+          "length": 11419,
+          "source_index": 173,
+          "stratum": "long"
+        },
+        {
+          "id": "d3b197d5b4da1198fc9c232524faced0f528b89f919b8061",
+          "length": 3506,
+          "source_index": 191,
+          "stratum": "short"
+        },
+        {
+          "id": "4670f2a542ac06d27e47a74a042cf57f743fba34722a7dc5",
+          "length": 2412,
+          "source_index": 197,
+          "stratum": "short"
+        }
+      ],
+      "safety": [
+        {
+          "id": "hexphi_007",
+          "source_index": 7,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_008",
+          "source_index": 8,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_010",
+          "source_index": 10,
+          "stratum": "illegal_activity"
+        },
+        {
+          "id": "hexphi_034",
+          "source_index": 34,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_038",
+          "source_index": 38,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_050",
+          "source_index": 50,
+          "stratum": "harm_children"
+        },
+        {
+          "id": "hexphi_072",
+          "source_index": 72,
+          "stratum": "hate_harass_violence"
+        },
+        {
+          "id": "hexphi_084",
+          "source_index": 84,
+          "stratum": "hate_harass_violence"
+        },
+        {
+          "id": "hexphi_090",
+          "source_index": 90,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_103",
+          "source_index": 103,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_106",
+          "source_index": 106,
+          "stratum": "malware"
+        },
+        {
+          "id": "hexphi_121",
+          "source_index": 121,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_136",
+          "source_index": 136,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_146",
+          "source_index": 146,
+          "stratum": "physical_harm"
+        },
+        {
+          "id": "hexphi_165",
+          "source_index": 165,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_167",
+          "source_index": 167,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_173",
+          "source_index": 173,
+          "stratum": "economic_harm"
+        },
+        {
+          "id": "hexphi_188",
+          "source_index": 188,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_191",
+          "source_index": 191,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_204",
+          "source_index": 204,
+          "stratum": "fraudulent_deceptive"
+        },
+        {
+          "id": "hexphi_222",
+          "source_index": 222,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_226",
+          "source_index": 226,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_237",
+          "source_index": 237,
+          "stratum": "adult_content"
+        },
+        {
+          "id": "hexphi_253",
+          "source_index": 253,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_257",
+          "source_index": 257,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_261",
+          "source_index": 261,
+          "stratum": "political"
+        },
+        {
+          "id": "hexphi_270",
+          "source_index": 270,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_287",
+          "source_index": 287,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_291",
+          "source_index": 291,
+          "stratum": "privacy_violation"
+        },
+        {
+          "id": "hexphi_301",
+          "source_index": 301,
+          "stratum": "financial_advice"
+        },
+        {
+          "id": "hexphi_311",
+          "source_index": 311,
+          "stratum": "financial_advice"
+        },
+        {
+          "id": "hexphi_324",
+          "source_index": 324,
+          "stratum": "financial_advice"
+        }
+      ]
+    }
+  }
+}

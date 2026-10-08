@@ -1,0 +1,16 @@
+{
+  "alpha": null,
+  "max_input_tokens": 7680,
+  "max_raw_tokens": 7500,
+  "operator": "direct",
+  "protocol": "tokenizer_chat_template",
+  "receiver": {
+    "foundation": "models/Llama-3-8B-Instruct",
+    "name": "instruct"
+  },
+  "recompute_group": null,
+  "sender": {
+    "foundation": "models/Meta-Llama-3-8B",
+    "name": "base"
+  }
+}

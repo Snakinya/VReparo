@@ -1,0 +1,16 @@
+{
+  "alpha": null,
+  "max_input_tokens": 7680,
+  "max_raw_tokens": 7500,
+  "operator": "direct",
+  "protocol": "qwen3_chatml_no_thinking",
+  "receiver": {
+    "foundation": "models/Qwen/Qwen3-8B",
+    "name": "instruct"
+  },
+  "recompute_group": null,
+  "sender": {
+    "foundation": "models/Qwen/Qwen3-8B-Base",
+    "name": "base"
+  }
+}

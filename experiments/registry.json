@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "experiments": {
+    "rq1": {"title": "Full reuse characterization", "tables": ["table_01", "table_05", "table_06"], "input": "data/characterization.json"},
+    "rq2": {"title": "K/V component comparison", "tables": ["table_02"], "input": "data/characterization.json"},
+    "mitigation": {"title": "Five-run safety and benign refusal", "tables": ["table_03", "table_10"], "input": "data/repeated.json"},
+    "repeated_mitigation": {"title": "Individual sampling runs", "tables": ["table_11"], "input": "data/repeated.json"},
+    "performance": {"title": "Resident-cache latency and prompt lengths", "tables": ["table_04", "table_08"], "input": "data/evaluation.json"},
+    "calibration": {"title": "Recorded XSTest development candidates", "tables": ["table_07"], "input": "data/evaluation.json"},
+    "quality": {"title": "Recorded QA token F1", "tables": ["table_09"], "input": "data/evaluation.json"}
+  }
+}

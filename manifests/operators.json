@@ -1,0 +1,86 @@
+{
+  "boundaries.py": {
+    "export_sha256": "ebdf01082290b16ebb7944a83843c89b2264170341fedb7d632d7dbcde67f6c0",
+    "source": "results/runs/mitigation_method_compare_20260908/runtime/kvcache_provenance/experiments/droidspeak_style.py",
+    "source_sha256": "440ef606ecfa8e9ac590a0c871000e08a3ce924edacaa4bcab4268b25482a681",
+    "transformation": "named definitions and explicit local imports"
+  },
+  "cache.py": {
+    "export_sha256": "7970a63b6b15d74aeb5ee702a2f060c89f4ea366b8a35e7faff216c6c7f4ca46",
+    "source": "results/runs/mitigation_method_compare_20260908/runtime/kvcache_provenance/cache.py",
+    "source_sha256": "7970a63b6b15d74aeb5ee702a2f060c89f4ea366b8a35e7faff216c6c7f4ca46",
+    "transformation": "verbatim"
+  },
+  "correction.py": {
+    "export_sha256": "fef838e6a7a02ab024a4f5e65e02ce644957b465ae6e7407dd8751cd65ff232a",
+    "source": "scripts/mitigation_method_compare_20260908/value_residual.py",
+    "source_sha256": "daacdc37579794e4874debdcd289bb078940f07662ac1f0cfb2f0fb0ea526a1c",
+    "transformation": "named definitions and explicit local imports"
+  },
+  "droidspeak.py": {
+    "export_sha256": "eeaecf8f290ec52a2c6fcb03d7ec53eeda329304d5f3500c9e041584b019030e",
+    "source": "results/runs/mitigation_method_compare_20260908/runtime/kvcache_provenance/droidspeak.py",
+    "source_sha256": "eeaecf8f290ec52a2c6fcb03d7ec53eeda329304d5f3500c9e041584b019030e",
+    "transformation": "verbatim"
+  },
+  "generation.py": {
+    "export_sha256": "d04c0e5babc4f481ce9e5aa0191c94e831a03ebfded45e39ec3988cf915a825b",
+    "source": "results/runs/mitigation_method_compare_20260908/runtime/kvcache_provenance/generation.py",
+    "source_sha256": "d04c0e5babc4f481ce9e5aa0191c94e831a03ebfded45e39ec3988cf915a825b",
+    "transformation": "verbatim"
+  },
+  "judge_templates.py": {
+    "export_sha256": "b86c89cc7884539e004f0b90249c8a17bafcaa75356c718c60d0ca36d6569a3f",
+    "source": "reproductions/paper_v1/scripts/evaluate_official.py",
+    "source_sha256": "13eaf8f5ca0585685b997ddd9887c1848b68b272633469b2b63afeba1deb100d",
+    "transformation": "named definitions and explicit local imports"
+  },
+  "judging.py": {
+    "export_sha256": "57424a7463111774eb63dbf04608af6b4c9e4b503824ce5a6f40df44331ea1ad",
+    "source": "scripts/mitigation_confirm_20260909/judge_snapshot.py",
+    "source_sha256": "68a6d47f299d2cd3ef447daff37cdd4841166c7a8e4aed356f995a80bc6de85c",
+    "transformation": "named definitions and explicit local imports"
+  },
+  "longbench_droidspeak.py": {
+    "export_sha256": "43c35b7b6a7c9e06507e745b8f09074d72d6bf7a7d829ccb33b2b562c3d0d36a",
+    "source": "results/runs/mitigation_method_compare_20260908/runtime/kvcache_provenance/longbench_droidspeak.py",
+    "source_sha256": "43c35b7b6a7c9e06507e745b8f09074d72d6bf7a7d829ccb33b2b562c3d0d36a",
+    "transformation": "verbatim"
+  },
+  "longbench_qa.py": {
+    "export_sha256": "941d4d733d3b8933e1e49e8904eb82969fe625a8f0c61814b3cf8239f1e43584",
+    "source": "results/runs/mitigation_method_compare_20260908/runtime/kvcache_provenance/longbench_qa.py",
+    "source_sha256": "941d4d733d3b8933e1e49e8904eb82969fe625a8f0c61814b3cf8239f1e43584",
+    "transformation": "verbatim"
+  },
+  "models.py": {
+    "export_sha256": "7196d67459d92797a862c7aa4c335f18ab05900b5b463fd6ee0455dc73ea6144",
+    "source": "results/runs/mitigation_method_compare_20260908/runtime/kvcache_provenance/models.py",
+    "source_sha256": "7196d67459d92797a862c7aa4c335f18ab05900b5b463fd6ee0455dc73ea6144",
+    "transformation": "verbatim"
+  },
+  "prompts.py": {
+    "export_sha256": "a0c8cd9b2b482ab7947496fed5416db4afad025ad2992b19f38e763ac464653c",
+    "source": "results/runs/mitigation_method_compare_20260908/runtime/kvcache_provenance/prompts.py",
+    "source_sha256": "a0c8cd9b2b482ab7947496fed5416db4afad025ad2992b19f38e763ac464653c",
+    "transformation": "verbatim"
+  },
+  "refusal.py": {
+    "export_sha256": "8a84e1a7f37e01530ee402c80ff95224bd6b3d669f4dfb032d945467f5cd579e",
+    "source": "results/runs/mitigation_method_compare_20260908/runtime/kvcache_provenance/xstest_evaluation.py",
+    "source_sha256": "5142edc0164b9f80dc57f06373eb01a4db8b5977407ecc8664b54a058e39c75e",
+    "transformation": "named definitions and explicit local imports"
+  },
+  "ridge.py": {
+    "export_sha256": "76a739e8b19a561c1df7fb7e6ad9125ab645be6e27ffd24d3d960f1f662eb811",
+    "source": "results/runs/mitigation_method_compare_20260908/runtime/kvcache_provenance/security_module.py",
+    "source_sha256": "146c6655e28875ed9830fb7d42edf2816855634e706e651fa8190bdec33ff709",
+    "transformation": "named definitions and explicit local imports"
+  },
+  "semantic_rubric.py": {
+    "export_sha256": "188407f8dac1194ace806a12aacb4423f011c2754ba96c2236bc39ae15386e58",
+    "source": "scripts/mitigation_confirm_20260909/semantic_snapshot.py",
+    "source_sha256": "ad923562156e439e8a47c7ee22f9ca71cd2aab8ec2f577a1d84a1a66b3e02641",
+    "transformation": "named definitions and explicit local imports"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "alpha": null,
+  "max_input_tokens": 7680,
+  "max_raw_tokens": 7500,
+  "operator": "direct",
+  "protocol": "tokenizer_chat_template",
+  "receiver": {
+    "foundation": "models/Gemma/gemma-2-2b-it",
+    "name": "instruct"
+  },
+  "recompute_group": null,
+  "sender": {
+    "foundation": "models/Gemma/gemma-2-2b",
+    "name": "base"
+  }
+}

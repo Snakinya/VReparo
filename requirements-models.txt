@@ -1,0 +1,11 @@
+# Install into a separate Python 3.10 environment, not the offline environment.
+torch==2.4.0
+transformers==4.45.2
+tokenizers==0.20.3
+peft==0.14.0
+accelerate==1.1.1
+safetensors==0.8.0
+numpy==1.26.4
+sentencepiece==0.2.2
+pyarrow==19.0.1
+huggingface-hub==0.34.4

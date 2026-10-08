@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper using preferred-citation."
+title: VReparo
+type: software
+version: "0.4.0"
+license: MIT
+authors:
+  - family-names: "Lin"
+    given-names: "Zhiwei"
+    affiliation: "National University of Singapore"
+    email: "zhiweil@u.nus.edu"
+  - family-names: "Liu"
+    given-names: "Jiahao"
+    affiliation: "Ant Group"
+    email: "ljiahaomail@gmail.com"
+  - family-names: "Liu"
+    given-names: "Yan"
+    affiliation: "Ant Group"
+    email: "bencao.ly@antgroup.com"
+  - family-names: "Wang"
+    given-names: "Chengpeng"
+    affiliation: "National University of Singapore"
+    email: "wang-chengpeng@nus.edu.sg"
+preferred-citation:
+  type: unpublished
+  title: "To Cache or Not to Cache: Understanding and Mitigating Safety Incompatibility in Cross-Model KV Cache Reuse"
+  year: 2026
+  authors:
+    - family-names: "Lin"
+      given-names: "Zhiwei"
+    - family-names: "Liu"
+      given-names: "Jiahao"
+    - family-names: "Liu"
+      given-names: "Yan"
+    - family-names: "Wang"
+      given-names: "Chengpeng"

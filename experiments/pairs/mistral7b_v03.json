@@ -1,0 +1,16 @@
+{
+  "alpha": null,
+  "max_input_tokens": 7680,
+  "max_raw_tokens": 7500,
+  "operator": "direct",
+  "protocol": "tokenizer_chat_template",
+  "receiver": {
+    "foundation": "models/Mistral/Mistral-7B-Instruct-v0.3",
+    "name": "instruct"
+  },
+  "recompute_group": null,
+  "sender": {
+    "foundation": "models/Mistral/Mistral-7B-v0.3",
+    "name": "base"
+  }
+}
